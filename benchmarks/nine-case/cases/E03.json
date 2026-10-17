@@ -1,0 +1,22 @@
+{
+  "id": "E03",
+  "product": "general",
+  "language": "en",
+  "mode": "academic",
+  "title": "Summarization: nested explanation and method relationships",
+  "request": "Edit this research passage for clarity, natural academic expression and concise organization. Preserve every substantive claim, technical distinction, degree of certainty and the scope of the findings. Do not invent evidence or add explanations unsupported by the passage. Return only the revised passage.",
+  "context": "This is a language-editing task. Treat the supplied passage as the source of claims; do not fact-check it or replace claims with your external knowledge. Repair spacing and grammar where needed.",
+  "source": "Inspired by Google's Neural Machine Translation (NMT) that models the one-to-one alignment in translation tasks with an uniform attention distribution during the inference, this study proposes an attention-aware inference algorithm for Neural Abstractive Summarization (NAS) to regulate generated summaries to attend to source contents with the optimal coverage. Unlike NMT, NAS is not based on one-to-one transformation. Instead, its attention distribution for the input should be irregular and depend on the content layout of the source documents. To address this matter, we construct an attention-prediction model to learn the dependency between the optimal attention distribution and the source . By refining the vanilla beam searchwith the attention-aware mechanism, significant improvements on the quality of summaries could be observed.",
+  "constraints": {},
+  "provenance": {
+    "kind": "verbatim_dataset_input_with_adapted_request",
+    "source": "wanyu/IteraTeR_human_sent",
+    "revision": "e22e0371dac444239b944f9293f5b491d62b73f0",
+    "split": "test",
+    "row_index_zero_based": 137,
+    "doc_id": "2009.06891",
+    "revision_depth": 2,
+    "label": "clarity",
+    "note": "Source passage byte-for-byte from the dataset; local request adds explicit preservation requirements. Not the official EditEval protocol."
+  }
+}

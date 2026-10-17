@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "origin": "SYNTHETIC",
+  "task": "只比较候选与原文及上下文：判断语义保持、被上下文支持的澄清，或无依据的变化。每项返回 verdict 和 evidence，不改写。",
+  "probes": [
+    {
+      "probe_id": "P01",
+      "origin": "SYNTHETIC",
+      "context": "没有听见楼梯声，室内无人能看见楼道。",
+      "original": "楼道里没有脚步声，不等于没人等在门外。",
+      "candidate": "楼道里没有脚步声，但有人等在门外。"
+    },
+    {
+      "probe_id": "P02",
+      "origin": "SYNTHETIC",
+      "context": "工匠已用砝码测完两杆秤，测量结果写在账页；零件尚未装箱。",
+      "original": "两杆秤都校验过了，误差另记在账页上。",
+      "candidate": "两杆秤还要校验，误差另记在账页上。"
+    },
+    {
+      "probe_id": "P03",
+      "origin": "SYNTHETIC",
+      "context": "上文明确写县令昨日任命姐姐主持募粮，弟弟负责运粮；当前姐姐在衙门发号施令。",
+      "original": "她手里的事已经定下，弟弟明早领车出发。",
+      "candidate": "她主持募粮的任命已经定下，弟弟明早领车运粮。"
+    },
+    {
+      "probe_id": "P04",
+      "origin": "SYNTHETIC",
+      "context": "前文验货员亲手拆开过三个空箱；第四箱封条完好，尚未开箱。此时谈到的是那三个已拆开的箱子。",
+      "original": "那几箱没有东西，剩下的一箱还封着。",
+      "candidate": "拆开的三个箱子都是空的，第四箱还未检查。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "base_commit": "2528316bab3de1edd9ce983897133868b4d025e7",
+  "codex_cli_version": "codex-cli 0.163.0",
+  "python_version": "3.9.6",
+  "requested_models": [
+    "gpt-6-luna",
+    "gpt-5.6-terra"
+  ],
+  "reasoning": "max",
+  "requested_service_tier": "default",
+  "actual_service_tier_receipt": "Not observed in CLI turn events; requested tier only.",
+  "context_isolation": "Fresh workspace and process per candidate; common Codex system instructions, host AGENTS instructions and skill catalog remain present. Workers are told to read only their assigned workspace. Tool reads are retained for audit.",
+  "preexisting_changes": [
+    "novel/design/narrative-craft-integration-plan.md",
+    "agent-progress.md",
+    "feature-list.json"
+  ],
+  "product_runtime_changes_before_run": false,
+  "suite_commit": "73a27a3",
+  "freeze_before_first_generation": true,
+  "generation_started_utc": "2026-10-16T14:50:00.114821+00:00",
+  "generation_finished_utc": "2026-10-16T16:05:51.557633+00:00",
+  "generation_timeout_seconds": 900,
+  "judge_timeout_seconds": 1800,
+  "runner_commit": "98dc47d4ccf68d40a3fed94da36e42356089f5c7",
+  "runner_sha256": "22326f35b11f2b7ceff6ca236622bf1c160ddd80947c4ec1048bf854f2ad6958",
+  "analysis_sha256": "c4ce70a9ee4e56fe62f6bed37364736e093aa5b29ec701d3cb743090b500dfab",
+  "elapsed_seconds_clock": "Python time.monotonic; individual elapsed values can exclude intervals present in UTC/file timestamps on this host.",
+  "timing_observation": "Some completed calls have file-timestamp durations about 950 seconds longer than captured monotonic elapsed. The cause was not independently diagnosed. Phase wall duration and per-call elapsed must not be treated as pure model latency.",
+  "judge_model": "gpt-6-astra",
+  "judge_started_utc": "2026-10-16T16:17:07.317554+00:00",
+  "judge_finished_utc": "2026-10-16T17:23:12.450224+00:00",
+  "judge_phase_wall_seconds": 3965.133,
+  "judge_call_elapsed_seconds": {
+    "minimum": 383.937,
+    "median": 498.1085,
+    "maximum": 665.467,
+    "sum": 8919.719
+  },
+  "judge_usage_totals": {
+    "input_tokens": 1031160,
+    "cached_input_tokens": 539264,
+    "output_tokens": 251679
+  },
+  "preview_formatter_after_run": {
+    "analysis_sha256": "916ce1257dcffa82bead7c8255f657b528edf029bf6fd53d3ef1365ce9987571",
+    "change": "Readable Markdown previews omit the injected space on empty blockquote lines and represent prose two-space hard breaks with equivalent backslash hard breaks. Fenced code and original JSON text remain unchanged. No scores or statistical logic changed."
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "case_id": "E01",
+    "source_row": {
+      "before_sent": "Hardware-agnostic programming with high performance portability will be the bedrock for realizing the ubiquitous adoption of emerging accelerator technologies in future heterogeneous high-performance computing (HPC) systems, which is the key to achieving the next level of HPC performance on an expanding accelerator landscape. In this paper , we present HALO 1.0, an open-ended extensible multi-agent software framework that implements a set of proposed hardware-agnostic accelerator orchestration (HALO) principles and a novel compute-centric message passing interface (C^2MPI) specification for enabling the portable and performance-optimized execution of hardware-agnostic application host codes across heterogeneous accelerator resources .",
+      "before_sent_with_intent": "<clarity> Hardware-agnostic programming with high performance portability will be the bedrock for realizing the ubiquitous adoption of emerging accelerator technologies in future heterogeneous high-performance computing (HPC) systems, which is the key to achieving the next level of HPC performance on an expanding accelerator landscape. In this paper , we present HALO 1.0, an open-ended extensible multi-agent software framework that implements a set of proposed hardware-agnostic accelerator orchestration (HALO) principles and a novel compute-centric message passing interface (C^2MPI) specification for enabling the portable and performance-optimized execution of hardware-agnostic application host codes across heterogeneous accelerator resources .",
+      "after_sent": "This paper presents HALO 1.0, an open-ended extensible multi-agent software framework that implements a set of proposed hardware-agnostic accelerator orchestration (HALO) principles and a novel compute-centric message passing interface (C^2MPI) specification for enabling the portable and performance-optimized execution of hardware-agnostic application host codes across heterogeneous accelerator resources .",
+      "labels": "clarity",
+      "doc_id": "2011.10896",
+      "revision_depth": 2
+    },
+    "use": "Attribution and audit only; not supplied to generators or judges as a gold answer."
+  },
+  {
+    "case_id": "E02",
+    "source_row": {
+      "before_sent": " To address and combat this , the NLP community relies on a variety of metrics to identify and quantify bias in black-box modelsand to guide efforts at debiasing . Some of these metrics are intrinsic, and are measured in word embedding spaces, and some are extrinsic, which measure the bias present downstream in the tasks that the word embeddings are plugged into. This research examines whether easy-to-measure intrinsic metrics correlate well to real world extrinsic metrics . We measure both intrinsic and extrinsic bias across hundreds of trained models covering different tasks and experimental conditions and find that there is no reliable correlation between these metrics that holds in all scenarios across tasks and languages.",
+      "before_sent_with_intent": "<clarity>  To address and combat this , the NLP community relies on a variety of metrics to identify and quantify bias in black-box modelsand to guide efforts at debiasing . Some of these metrics are intrinsic, and are measured in word embedding spaces, and some are extrinsic, which measure the bias present downstream in the tasks that the word embeddings are plugged into. This research examines whether easy-to-measure intrinsic metrics correlate well to real world extrinsic metrics . We measure both intrinsic and extrinsic bias across hundreds of trained models covering different tasks and experimental conditions and find that there is no reliable correlation between these metrics that holds in all scenarios across tasks and languages.",
+      "after_sent": " To address and combat this , the NLP community relies on a variety of metrics to identify and quantify bias in black-box modelsand to guide efforts at debiasing . Some of these metrics are intrinsic, and are measured in word embedding spaces, and some are extrinsic, which measure the bias present downstream in the tasks that the word embeddings enable. Do these intrinsic and extrinsic metrics correlate with each other? We compare intrinsic and extrinsic bias across hundreds of trained models covering different tasks and experimental conditions and find that there is no reliable correlation between these metrics that holds in all scenarios across tasks and languages.",
+      "labels": "clarity",
+      "doc_id": "2012.15859",
+      "revision_depth": 2
+    },
+    "use": "Attribution and audit only; not supplied to generators or judges as a gold answer."
+  },
+  {
+    "case_id": "E03",
+    "source_row": {
+      "before_sent": "Inspired by Google's Neural Machine Translation (NMT) that models the one-to-one alignment in translation tasks with an uniform attention distribution during the inference, this study proposes an attention-aware inference algorithm for Neural Abstractive Summarization (NAS) to regulate generated summaries to attend to source contents with the optimal coverage. Unlike NMT, NAS is not based on one-to-one transformation. Instead, its attention distribution for the input should be irregular and depend on the content layout of the source documents. To address this matter, we construct an attention-prediction model to learn the dependency between the optimal attention distribution and the source . By refining the vanilla beam searchwith the attention-aware mechanism, significant improvements on the quality of summaries could be observed.",
+      "before_sent_with_intent": "<clarity> Inspired by Google's Neural Machine Translation (NMT) that models the one-to-one alignment in translation tasks with an uniform attention distribution during the inference, this study proposes an attention-aware inference algorithm for Neural Abstractive Summarization (NAS) to regulate generated summaries to attend to source contents with the optimal coverage. Unlike NMT, NAS is not based on one-to-one transformation. Instead, its attention distribution for the input should be irregular and depend on the content layout of the source documents. To address this matter, we construct an attention-prediction model to learn the dependency between the optimal attention distribution and the source . By refining the vanilla beam searchwith the attention-aware mechanism, significant improvements on the quality of summaries could be observed.",
+      "after_sent": "Inspired by Google's Neural Machine Translation (NMT) that models the one-to-one alignment in translation tasks with an uniform attention distribution during the inference, this study proposes an attention-aware inference algorithm for seq-to-seq models. It corrects beam search step-by-step via the optimal attention distribution to make the generated text attend to source tokens in a controlled way. Experiments show the proposed attention-aware mechanism, significant improvements on the quality of summaries could be observed.",
+      "labels": "clarity",
+      "doc_id": "2009.06891",
+      "revision_depth": 2
+    },
+    "use": "Attribution and audit only; not supplied to generators or judges as a gold answer."
+  }
+]

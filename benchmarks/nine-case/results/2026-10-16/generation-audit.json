@@ -1,0 +1,11 @@
+{
+  "generations": 156,
+  "all_status_ok": true,
+  "hard_failure_records": [],
+  "selected_skill_entrypoint_read_flags": [],
+  "outside_path_command_flags": [],
+  "tool_types": [
+    "command_execution"
+  ],
+  "freeze_precedes_generation": true
+}

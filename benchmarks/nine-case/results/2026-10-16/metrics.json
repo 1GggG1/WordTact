@@ -1,0 +1,3935 @@
+{
+  "groups": {
+    "gpt-5.6-terra|general|bare": {
+      "generations": 18,
+      "distinct_cases": 6,
+      "mean_quality": {
+        "naturalness": 4.083,
+        "voice": 4.222,
+        "craft": 4.139,
+        "economy": 4.111
+      },
+      "both_fidelity_pass": 14,
+      "worst_fidelity_counts": {
+        "minor": 4,
+        "pass": 14
+      },
+      "fidelity_order_disagreements": 3,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 37.282,
+      "min_wall_seconds": 15.059,
+      "max_wall_seconds": 76.96,
+      "tokens": {
+        "input_tokens": 724538,
+        "cached_input_tokens": 549120,
+        "output_tokens": 23084,
+        "reasoning_output_tokens": 15387
+      }
+    },
+    "gpt-5.6-terra|general|humanizer": {
+      "generations": 18,
+      "distinct_cases": 6,
+      "mean_quality": {
+        "naturalness": 4.389,
+        "voice": 4.222,
+        "craft": 4.444,
+        "economy": 4.361
+      },
+      "both_fidelity_pass": 12,
+      "worst_fidelity_counts": {
+        "pass": 12,
+        "minor": 6
+      },
+      "fidelity_order_disagreements": 3,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 52.559,
+      "min_wall_seconds": 21.588,
+      "max_wall_seconds": 210.566,
+      "tokens": {
+        "input_tokens": 1302049,
+        "cached_input_tokens": 1004032,
+        "output_tokens": 49013,
+        "reasoning_output_tokens": 37412
+      }
+    },
+    "gpt-5.6-terra|general|project": {
+      "generations": 18,
+      "distinct_cases": 6,
+      "mean_quality": {
+        "naturalness": 4.222,
+        "voice": 4.25,
+        "craft": 4.306,
+        "economy": 4.306
+      },
+      "both_fidelity_pass": 16,
+      "worst_fidelity_counts": {
+        "pass": 16,
+        "minor": 2
+      },
+      "fidelity_order_disagreements": 2,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 49.875,
+      "min_wall_seconds": 26.887,
+      "max_wall_seconds": 146.425,
+      "tokens": {
+        "input_tokens": 1181565,
+        "cached_input_tokens": 912128,
+        "output_tokens": 60949,
+        "reasoning_output_tokens": 48568
+      }
+    },
+    "gpt-5.6-terra|fiction_draft|bare": {
+      "generations": 3,
+      "distinct_cases": 1,
+      "mean_quality": {
+        "naturalness": 4.667,
+        "voice": 4.667,
+        "craft": 4.333,
+        "economy": 4.667
+      },
+      "both_fidelity_pass": 3,
+      "worst_fidelity_counts": {
+        "pass": 3
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 201.605,
+      "min_wall_seconds": 182.726,
+      "max_wall_seconds": 529.081,
+      "tokens": {
+        "input_tokens": 188833,
+        "cached_input_tokens": 144640,
+        "output_tokens": 14614,
+        "reasoning_output_tokens": 9269
+      }
+    },
+    "gpt-5.6-terra|fiction_draft|project": {
+      "generations": 3,
+      "distinct_cases": 1,
+      "mean_quality": {
+        "naturalness": 4.833,
+        "voice": 5,
+        "craft": 5,
+        "economy": 5
+      },
+      "both_fidelity_pass": 1,
+      "worst_fidelity_counts": {
+        "minor": 2,
+        "pass": 1
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 275.865,
+      "min_wall_seconds": 88.596,
+      "max_wall_seconds": 292.479,
+      "tokens": {
+        "input_tokens": 696777,
+        "cached_input_tokens": 575232,
+        "output_tokens": 27621,
+        "reasoning_output_tokens": 17453
+      }
+    },
+    "gpt-5.6-terra|fiction_edit|bare": {
+      "generations": 6,
+      "distinct_cases": 2,
+      "mean_quality": {
+        "naturalness": 4.583,
+        "voice": 4.5,
+        "craft": 4.833,
+        "economy": 4.833
+      },
+      "both_fidelity_pass": 5,
+      "worst_fidelity_counts": {
+        "pass": 5,
+        "minor": 1
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 48.757,
+      "min_wall_seconds": 23.411,
+      "max_wall_seconds": 86.351,
+      "tokens": {
+        "input_tokens": 221160,
+        "cached_input_tokens": 166656,
+        "output_tokens": 15832,
+        "reasoning_output_tokens": 12712
+      }
+    },
+    "gpt-5.6-terra|fiction_edit|humanizer": {
+      "generations": 6,
+      "distinct_cases": 2,
+      "mean_quality": {
+        "naturalness": 4.667,
+        "voice": 4.417,
+        "craft": 4.667,
+        "economy": 4.5
+      },
+      "both_fidelity_pass": 5,
+      "worst_fidelity_counts": {
+        "pass": 5,
+        "minor": 1
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 97.214,
+      "min_wall_seconds": 32.845,
+      "max_wall_seconds": 153.806,
+      "tokens": {
+        "input_tokens": 418306,
+        "cached_input_tokens": 300032,
+        "output_tokens": 29685,
+        "reasoning_output_tokens": 24989
+      }
+    },
+    "gpt-5.6-terra|fiction_edit|project": {
+      "generations": 6,
+      "distinct_cases": 2,
+      "mean_quality": {
+        "naturalness": 5,
+        "voice": 4.583,
+        "craft": 5,
+        "economy": 4.833
+      },
+      "both_fidelity_pass": 4,
+      "worst_fidelity_counts": {
+        "minor": 2,
+        "pass": 4
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 258.64,
+      "min_wall_seconds": 72.093,
+      "max_wall_seconds": 681.181,
+      "tokens": {
+        "input_tokens": 1529413,
+        "cached_input_tokens": 1242112,
+        "output_tokens": 55540,
+        "reasoning_output_tokens": 43642
+      }
+    },
+    "gpt-6-luna|general|bare": {
+      "generations": 18,
+      "distinct_cases": 6,
+      "mean_quality": {
+        "naturalness": 4.583,
+        "voice": 4.306,
+        "craft": 4.639,
+        "economy": 4.694
+      },
+      "both_fidelity_pass": 16,
+      "worst_fidelity_counts": {
+        "pass": 16,
+        "minor": 1,
+        "major": 1
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 22.654,
+      "min_wall_seconds": 12.583,
+      "max_wall_seconds": 31.3,
+      "tokens": {
+        "input_tokens": 777949,
+        "cached_input_tokens": 563072,
+        "output_tokens": 20786,
+        "reasoning_output_tokens": 15727
+      }
+    },
+    "gpt-6-luna|general|humanizer": {
+      "generations": 18,
+      "distinct_cases": 6,
+      "mean_quality": {
+        "naturalness": 4.694,
+        "voice": 4.333,
+        "craft": 4.722,
+        "economy": 4.722
+      },
+      "both_fidelity_pass": 17,
+      "worst_fidelity_counts": {
+        "pass": 17,
+        "minor": 1
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 24.982,
+      "min_wall_seconds": 15.019,
+      "max_wall_seconds": 48.716,
+      "tokens": {
+        "input_tokens": 942146,
+        "cached_input_tokens": 562432,
+        "output_tokens": 32516,
+        "reasoning_output_tokens": 26737
+      }
+    },
+    "gpt-6-luna|general|project": {
+      "generations": 18,
+      "distinct_cases": 6,
+      "mean_quality": {
+        "naturalness": 4.861,
+        "voice": 4.25,
+        "craft": 4.833,
+        "economy": 4.75
+      },
+      "both_fidelity_pass": 17,
+      "worst_fidelity_counts": {
+        "pass": 17,
+        "minor": 1
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 37.706,
+      "min_wall_seconds": 23.966,
+      "max_wall_seconds": 111.822,
+      "tokens": {
+        "input_tokens": 1184352,
+        "cached_input_tokens": 895104,
+        "output_tokens": 51375,
+        "reasoning_output_tokens": 44123
+      }
+    },
+    "gpt-6-luna|fiction_draft|bare": {
+      "generations": 3,
+      "distinct_cases": 1,
+      "mean_quality": {
+        "naturalness": 4.667,
+        "voice": 4.833,
+        "craft": 4.667,
+        "economy": 4.333
+      },
+      "both_fidelity_pass": 3,
+      "worst_fidelity_counts": {
+        "pass": 3
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 77.001,
+      "min_wall_seconds": 54.51,
+      "max_wall_seconds": 98.623,
+      "tokens": {
+        "input_tokens": 219229,
+        "cached_input_tokens": 139648,
+        "output_tokens": 22098,
+        "reasoning_output_tokens": 15931
+      }
+    },
+    "gpt-6-luna|fiction_draft|project": {
+      "generations": 3,
+      "distinct_cases": 1,
+      "mean_quality": {
+        "naturalness": 4.333,
+        "voice": 4.333,
+        "craft": 4.167,
+        "economy": 3.667
+      },
+      "both_fidelity_pass": 3,
+      "worst_fidelity_counts": {
+        "pass": 3
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 168.93,
+      "min_wall_seconds": 121.742,
+      "max_wall_seconds": 168.932,
+      "tokens": {
+        "input_tokens": 677411,
+        "cached_input_tokens": 527232,
+        "output_tokens": 37960,
+        "reasoning_output_tokens": 29177
+      }
+    },
+    "gpt-6-luna|fiction_edit|bare": {
+      "generations": 6,
+      "distinct_cases": 2,
+      "mean_quality": {
+        "naturalness": 4.75,
+        "voice": 4.5,
+        "craft": 5,
+        "economy": 5
+      },
+      "both_fidelity_pass": 6,
+      "worst_fidelity_counts": {
+        "pass": 6
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 26.938,
+      "min_wall_seconds": 18.45,
+      "max_wall_seconds": 45.734,
+      "tokens": {
+        "input_tokens": 258980,
+        "cached_input_tokens": 187520,
+        "output_tokens": 10736,
+        "reasoning_output_tokens": 8176
+      }
+    },
+    "gpt-6-luna|fiction_edit|humanizer": {
+      "generations": 6,
+      "distinct_cases": 2,
+      "mean_quality": {
+        "naturalness": 4.667,
+        "voice": 4.5,
+        "craft": 4.75,
+        "economy": 4.583
+      },
+      "both_fidelity_pass": 6,
+      "worst_fidelity_counts": {
+        "pass": 6
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 53.147,
+      "min_wall_seconds": 37.581,
+      "max_wall_seconds": 71.905,
+      "tokens": {
+        "input_tokens": 308843,
+        "cached_input_tokens": 164864,
+        "output_tokens": 22391,
+        "reasoning_output_tokens": 19661
+      }
+    },
+    "gpt-6-luna|fiction_edit|project": {
+      "generations": 6,
+      "distinct_cases": 2,
+      "mean_quality": {
+        "naturalness": 5,
+        "voice": 4.583,
+        "craft": 5,
+        "economy": 5.083
+      },
+      "both_fidelity_pass": 5,
+      "worst_fidelity_counts": {
+        "pass": 5,
+        "minor": 1
+      },
+      "fidelity_order_disagreements": 0,
+      "hard_failure_generations": 0,
+      "median_wall_seconds": 81.907,
+      "min_wall_seconds": 55.132,
+      "max_wall_seconds": 161.274,
+      "tokens": {
+        "input_tokens": 1318293,
+        "cached_input_tokens": 1063296,
+        "output_tokens": 53009,
+        "reasoning_output_tokens": 46102
+      }
+    }
+  },
+  "sample_ratings": [
+    {
+      "key": "gpt-5.6-terra__C01__bare__r1",
+      "case_id": "C01",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T015ccbf1e83c",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "minor",
+        "pass"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C01__bare__r2",
+      "case_id": "C01",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Tbfba687a67f0",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "minor",
+        "pass"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C01__bare__r3",
+      "case_id": "C01",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T3b0d8ca865fe",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C01__humanizer__r1",
+      "case_id": "C01",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T6efda8adcb36",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4.5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C01__humanizer__r2",
+      "case_id": "C01",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T5006a2b506e8",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C01__humanizer__r3",
+      "case_id": "C01",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T8d419f4d4514",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C01__project__r1",
+      "case_id": "C01",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T5c800717811b",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C01__project__r2",
+      "case_id": "C01",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T84d0060e7f66",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C01__project__r3",
+      "case_id": "C01",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T3e20180676b5",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C02__bare__r1",
+      "case_id": "C02",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T8da63eeceea4",
+      "naturalness": 4,
+      "voice": 4.5,
+      "craft": 4,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C02__bare__r2",
+      "case_id": "C02",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Tde3906f4ab6d",
+      "naturalness": 4,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C02__bare__r3",
+      "case_id": "C02",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Te021242d1fce",
+      "naturalness": 4,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C02__humanizer__r1",
+      "case_id": "C02",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "Tdd8f0ff6acf7",
+      "naturalness": 4,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C02__humanizer__r2",
+      "case_id": "C02",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "Ta47eed53b9f9",
+      "naturalness": 4,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C02__humanizer__r3",
+      "case_id": "C02",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T3e7ed5722d6d",
+      "naturalness": 4,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C02__project__r1",
+      "case_id": "C02",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T0556bdabfaa7",
+      "naturalness": 4.5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C02__project__r2",
+      "case_id": "C02",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T080d90744b2d",
+      "naturalness": 4,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C02__project__r3",
+      "case_id": "C02",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "Tac9ec5079b29",
+      "naturalness": 4.5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C03__bare__r1",
+      "case_id": "C03",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Tdb57721a023a",
+      "naturalness": 4,
+      "voice": 4.5,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C03__bare__r2",
+      "case_id": "C03",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T10569f635b9d",
+      "naturalness": 4,
+      "voice": 5,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C03__bare__r3",
+      "case_id": "C03",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Te26b4b981794",
+      "naturalness": 4.5,
+      "voice": 5,
+      "craft": 4,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C03__humanizer__r1",
+      "case_id": "C03",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T1d2809d1a394",
+      "naturalness": 4,
+      "voice": 4.5,
+      "craft": 4,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C03__humanizer__r2",
+      "case_id": "C03",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "Tcda9637610c3",
+      "naturalness": 4,
+      "voice": 5,
+      "craft": 4,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C03__humanizer__r3",
+      "case_id": "C03",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T2e7689d12572",
+      "naturalness": 4.5,
+      "voice": 5,
+      "craft": 4.5,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C03__project__r1",
+      "case_id": "C03",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T9656e7da8c15",
+      "naturalness": 4.5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C03__project__r2",
+      "case_id": "C03",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "Taf1fab4f5cc2",
+      "naturalness": 4,
+      "voice": 5,
+      "craft": 4.5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__C03__project__r3",
+      "case_id": "C03",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "Tde070b5e4c1e",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E01__bare__r1",
+      "case_id": "E01",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T1c875f1286b9",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E01__bare__r2",
+      "case_id": "E01",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T92f45824f97e",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E01__bare__r3",
+      "case_id": "E01",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T099b253e74b3",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E01__humanizer__r1",
+      "case_id": "E01",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T5a49ac1be96d",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "minor",
+        "pass"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E01__humanizer__r2",
+      "case_id": "E01",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T2b2b21d7e688",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E01__humanizer__r3",
+      "case_id": "E01",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T79cbcffc4721",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E01__project__r1",
+      "case_id": "E01",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T1cbeba2fd51c",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "minor",
+        "pass"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E01__project__r2",
+      "case_id": "E01",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T17f40aa4f6e4",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E01__project__r3",
+      "case_id": "E01",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T771119bc3e70",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E02__bare__r1",
+      "case_id": "E02",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Tefe388d27fc6",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E02__bare__r2",
+      "case_id": "E02",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Tb24024666b4b",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E02__bare__r3",
+      "case_id": "E02",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T5c6005384ce9",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E02__humanizer__r1",
+      "case_id": "E02",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "Tb7b3f6d7c31b",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E02__humanizer__r2",
+      "case_id": "E02",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T5a90ad30d7ce",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E02__humanizer__r3",
+      "case_id": "E02",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "Tdc849abbd3de",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E02__project__r1",
+      "case_id": "E02",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T1819afa1cbfc",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E02__project__r2",
+      "case_id": "E02",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "Tb06e0c3d24b9",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E02__project__r3",
+      "case_id": "E02",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T457a2be5576b",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E03__bare__r1",
+      "case_id": "E03",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T9a2243d57b45",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E03__bare__r2",
+      "case_id": "E03",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Td3cb844172a1",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4.5,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E03__bare__r3",
+      "case_id": "E03",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T1c7a6e565b4d",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E03__humanizer__r1",
+      "case_id": "E03",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T943dd27d4cc9",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E03__humanizer__r2",
+      "case_id": "E03",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T806ae8d7861e",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E03__humanizer__r3",
+      "case_id": "E03",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "Tc2f4e510673c",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E03__project__r1",
+      "case_id": "E03",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "Tec54762b682e",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E03__project__r2",
+      "case_id": "E03",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T166fce36723e",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__E03__project__r3",
+      "case_id": "E03",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "Tdf7129f7f170",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F01__bare__r1",
+      "case_id": "F01",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Tb93de9da432c",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F01__bare__r2",
+      "case_id": "F01",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Ta113e6ab7cac",
+      "naturalness": 4.5,
+      "voice": 5,
+      "craft": 4,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F01__bare__r3",
+      "case_id": "F01",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Te1e1aa3722f7",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F01__project__r1",
+      "case_id": "F01",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T9ce2d3fd1c53",
+      "naturalness": 4.5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F01__project__r2",
+      "case_id": "F01",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "Tfbe11d16c295",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F01__project__r3",
+      "case_id": "F01",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T4b539c3e1c20",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F02__bare__r1",
+      "case_id": "F02",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T2feed922ddd3",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F02__bare__r2",
+      "case_id": "F02",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Te781bd6bb460",
+      "naturalness": 4.5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F02__bare__r3",
+      "case_id": "F02",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T652144973613",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F02__humanizer__r1",
+      "case_id": "F02",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T12f870dfea31",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F02__humanizer__r2",
+      "case_id": "F02",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T8906f8f52b2e",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F02__humanizer__r3",
+      "case_id": "F02",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T84ddbfb22bc8",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F02__project__r1",
+      "case_id": "F02",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T9919c63247c1",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F02__project__r2",
+      "case_id": "F02",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T035c33fe8bf2",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F02__project__r3",
+      "case_id": "F02",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T079a7c1c7766",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F03__bare__r1",
+      "case_id": "F03",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Tfa45d88f748f",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F03__bare__r2",
+      "case_id": "F03",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "Te0768693f89b",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F03__bare__r3",
+      "case_id": "F03",
+      "model": "gpt-5.6-terra",
+      "method": "bare",
+      "candidate_id": "T3b90682df169",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F03__humanizer__r1",
+      "case_id": "F03",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "Ta799a80578b8",
+      "naturalness": 4,
+      "voice": 3.5,
+      "craft": 4,
+      "economy": 3,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F03__humanizer__r2",
+      "case_id": "F03",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T17464fcc21c2",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F03__humanizer__r3",
+      "case_id": "F03",
+      "model": "gpt-5.6-terra",
+      "method": "humanizer",
+      "candidate_id": "T5be6b099774f",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F03__project__r1",
+      "case_id": "F03",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "Tdfe98379b099",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5.5,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F03__project__r2",
+      "case_id": "F03",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "Ted6d4d71d199",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-5.6-terra__F03__project__r3",
+      "case_id": "F03",
+      "model": "gpt-5.6-terra",
+      "method": "project",
+      "candidate_id": "T5df4aca9ab25",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C01__bare__r1",
+      "case_id": "C01",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T3e4827202e23",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C01__bare__r2",
+      "case_id": "C01",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T23f0b3655736",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4.5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C01__bare__r3",
+      "case_id": "C01",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T0489850ac89e",
+      "naturalness": 4,
+      "voice": 4.5,
+      "craft": 4.5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C01__humanizer__r1",
+      "case_id": "C01",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T6d90360649c3",
+      "naturalness": 4,
+      "voice": 4.5,
+      "craft": 4,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C01__humanizer__r2",
+      "case_id": "C01",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "Ta2dad89d710f",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C01__humanizer__r3",
+      "case_id": "C01",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T84e486ef560a",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 4.5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C01__project__r1",
+      "case_id": "C01",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T865e43f38b03",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C01__project__r2",
+      "case_id": "C01",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "Ta46e80651590",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C01__project__r3",
+      "case_id": "C01",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T9684f7ae7c1d",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4.5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C02__bare__r1",
+      "case_id": "C02",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T6bfaca7e843b",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C02__bare__r2",
+      "case_id": "C02",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Tc1e1b4a90722",
+      "naturalness": 4,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C02__bare__r3",
+      "case_id": "C02",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Tf2884c198fd6",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C02__humanizer__r1",
+      "case_id": "C02",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "Tb914e2e04471",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C02__humanizer__r2",
+      "case_id": "C02",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T367f5f308782",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C02__humanizer__r3",
+      "case_id": "C02",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T895e6fe1b840",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C02__project__r1",
+      "case_id": "C02",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T275b21d30b81",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C02__project__r2",
+      "case_id": "C02",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T9e7b3d35fdf3",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C02__project__r3",
+      "case_id": "C02",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "Ta43302f2147a",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C03__bare__r1",
+      "case_id": "C03",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Tfb56fbe01587",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C03__bare__r2",
+      "case_id": "C03",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Td4b4fbd7cc16",
+      "naturalness": 4,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C03__bare__r3",
+      "case_id": "C03",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Te02931d62178",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 4,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C03__humanizer__r1",
+      "case_id": "C03",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "Tc82d250d99d9",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C03__humanizer__r2",
+      "case_id": "C03",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "Tf95d367beefb",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C03__humanizer__r3",
+      "case_id": "C03",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "Tff6d7dc90718",
+      "naturalness": 4.5,
+      "voice": 5,
+      "craft": 4.5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C03__project__r1",
+      "case_id": "C03",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T81f52c3e7ca1",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C03__project__r2",
+      "case_id": "C03",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T85d7a2afdb3e",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__C03__project__r3",
+      "case_id": "C03",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T7d890223a067",
+      "naturalness": 4.5,
+      "voice": 4.5,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E01__bare__r1",
+      "case_id": "E01",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Td2a3dfb683aa",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E01__bare__r2",
+      "case_id": "E01",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T0078d53678ce",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E01__bare__r3",
+      "case_id": "E01",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Tb6d3de068630",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "major",
+        "major"
+      ],
+      "worst_fidelity": "major",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E01__humanizer__r1",
+      "case_id": "E01",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "Ted17c4a198d8",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E01__humanizer__r2",
+      "case_id": "E01",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T231193f189b8",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E01__humanizer__r3",
+      "case_id": "E01",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T4a2a2f630c6f",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E01__project__r1",
+      "case_id": "E01",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T5314f8f7382b",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E01__project__r2",
+      "case_id": "E01",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T81e61bf09a9b",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E01__project__r3",
+      "case_id": "E01",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "Td1922d4eda4e",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E02__bare__r1",
+      "case_id": "E02",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T7175d089707a",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E02__bare__r2",
+      "case_id": "E02",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T29ddacd9aaaa",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E02__bare__r3",
+      "case_id": "E02",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Tb2262d68cb95",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E02__humanizer__r1",
+      "case_id": "E02",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T812f390b7bfb",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E02__humanizer__r2",
+      "case_id": "E02",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "Te7acd05ead7b",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E02__humanizer__r3",
+      "case_id": "E02",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "Tdc41b5af4ecc",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E02__project__r1",
+      "case_id": "E02",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T22a8239612d6",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 4.5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E02__project__r2",
+      "case_id": "E02",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T1fd0c4a64be2",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E02__project__r3",
+      "case_id": "E02",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T7a9403ab952b",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E03__bare__r1",
+      "case_id": "E03",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Tb1807057f680",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E03__bare__r2",
+      "case_id": "E03",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T406d2f2309fc",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E03__bare__r3",
+      "case_id": "E03",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Taeb52d911c3d",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 4.5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E03__humanizer__r1",
+      "case_id": "E03",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T23ce3d2771cb",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E03__humanizer__r2",
+      "case_id": "E03",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T2b401a73d8bf",
+      "naturalness": 4.5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E03__humanizer__r3",
+      "case_id": "E03",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T37f8882b5064",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E03__project__r1",
+      "case_id": "E03",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "Tccba910ffe67",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E03__project__r2",
+      "case_id": "E03",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "Tecba62b4e27e",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__E03__project__r3",
+      "case_id": "E03",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T0fee8f321583",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F01__bare__r1",
+      "case_id": "F01",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Td29172e5304e",
+      "naturalness": 4,
+      "voice": 5,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F01__bare__r2",
+      "case_id": "F01",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T878f572b43b8",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F01__bare__r3",
+      "case_id": "F01",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T5d31f79d0c1a",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F01__project__r1",
+      "case_id": "F01",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T29ec9b80856f",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 4.5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F01__project__r2",
+      "case_id": "F01",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T14092a516d7c",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F01__project__r3",
+      "case_id": "F01",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "Tca99ce790ab2",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 3,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F02__bare__r1",
+      "case_id": "F02",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Ta7fdf74dd311",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F02__bare__r2",
+      "case_id": "F02",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "Te17ce30f2040",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F02__bare__r3",
+      "case_id": "F02",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T4fcf97d50324",
+      "naturalness": 4.5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F02__humanizer__r1",
+      "case_id": "F02",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "Tfa0baa656024",
+      "naturalness": 4,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F02__humanizer__r2",
+      "case_id": "F02",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "Tcd1e9f1c80e1",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F02__humanizer__r3",
+      "case_id": "F02",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T1da625e13c2e",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F02__project__r1",
+      "case_id": "F02",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "Td57be7fa6fc5",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F02__project__r2",
+      "case_id": "F02",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T5a2a57212c86",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F02__project__r3",
+      "case_id": "F02",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "Tbea69879b733",
+      "naturalness": 5,
+      "voice": 5,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F03__bare__r1",
+      "case_id": "F03",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T3f2910a8701b",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F03__bare__r2",
+      "case_id": "F03",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T58a8791ff61e",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F03__bare__r3",
+      "case_id": "F03",
+      "model": "gpt-6-luna",
+      "method": "bare",
+      "candidate_id": "T6b89fdddecbf",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F03__humanizer__r1",
+      "case_id": "F03",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T97a7d21411fa",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 4.5,
+      "economy": 4.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F03__humanizer__r2",
+      "case_id": "F03",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T7d6f987607a1",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F03__humanizer__r3",
+      "case_id": "F03",
+      "model": "gpt-6-luna",
+      "method": "humanizer",
+      "candidate_id": "T0fe179e80ef8",
+      "naturalness": 4,
+      "voice": 4,
+      "craft": 4,
+      "economy": 4,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F03__project__r1",
+      "case_id": "F03",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "Taeeeaa3b31dc",
+      "naturalness": 5,
+      "voice": 4.5,
+      "craft": 5,
+      "economy": 5.5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F03__project__r2",
+      "case_id": "F03",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "T7d961973d8d8",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "minor",
+        "minor"
+      ],
+      "worst_fidelity": "minor",
+      "both_fidelity_pass": false,
+      "hard_failures": []
+    },
+    {
+      "key": "gpt-6-luna__F03__project__r3",
+      "case_id": "F03",
+      "model": "gpt-6-luna",
+      "method": "project",
+      "candidate_id": "Tba444f356bfb",
+      "naturalness": 5,
+      "voice": 4,
+      "craft": 5,
+      "economy": 5,
+      "fidelity_by_order": [
+        "pass",
+        "pass"
+      ],
+      "worst_fidelity": "pass",
+      "both_fidelity_pass": true,
+      "hard_failures": []
+    }
+  ],
+  "per_case_pairs": {
+    "gpt-6-luna|C01|bare": {
+      "language_quality": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-5.6-terra|C01|humanizer": {
+      "language_quality": {
+        "win": 0,
+        "tie": 2,
+        "loss": 1,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 2,
+        "loss": 1,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-5.6-terra|C01|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|C01|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|C01|bare": {
+      "language_quality": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 2
+      }
+    },
+    "gpt-6-luna|C01|humanizer": {
+      "language_quality": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|C02|bare": {
+      "language_quality": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-6-luna|C02|humanizer": {
+      "language_quality": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|C02|bare": {
+      "language_quality": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-6-luna|C02|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|C02|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|C02|humanizer": {
+      "language_quality": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|C03|humanizer": {
+      "language_quality": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 2
+      },
+      "usable_overall": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-6-luna|C03|bare": {
+      "language_quality": {
+        "win": 0,
+        "tie": 1,
+        "loss": 2,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 1,
+        "loss": 2,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|C03|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|C03|humanizer": {
+      "language_quality": {
+        "win": 0,
+        "tie": 2,
+        "loss": 1,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 1,
+        "loss": 2,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|C03|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|C03|bare": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|E01|humanizer": {
+      "language_quality": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|E01|bare": {
+      "language_quality": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|E01|humanizer": {
+      "language_quality": {
+        "win": 0,
+        "tie": 1,
+        "loss": 2,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 2,
+        "loss": 1,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-5.6-terra|E01|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-6-luna|E01|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|E01|bare": {
+      "language_quality": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 2,
+        "loss": 1,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-6-luna|E02|bare": {
+      "language_quality": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-6-luna|E02|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|E02|humanizer": {
+      "language_quality": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|E02|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|E02|bare": {
+      "language_quality": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|E02|humanizer": {
+      "language_quality": {
+        "win": 0,
+        "tie": 2,
+        "loss": 1,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 1,
+        "tie": 1,
+        "loss": 1,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|E03|bare": {
+      "language_quality": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-6-luna|E03|bare": {
+      "language_quality": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|E03|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|E03|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|E03|humanizer": {
+      "language_quality": {
+        "win": 0,
+        "tie": 2,
+        "loss": 1,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 2,
+        "loss": 1,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-5.6-terra|E03|humanizer": {
+      "language_quality": {
+        "win": 0,
+        "tie": 2,
+        "loss": 1,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 2
+      }
+    },
+    "gpt-5.6-terra|F01|bare": {
+      "language_quality": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 1,
+        "tie": 0,
+        "loss": 2,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|F01|bare": {
+      "language_quality": {
+        "win": 0,
+        "tie": 1,
+        "loss": 2,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 1,
+        "loss": 2,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-5.6-terra|F02|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 2,
+        "tie": 0,
+        "loss": 1,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|F02|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|F02|humanizer": {
+      "language_quality": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 2,
+        "loss": 1,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|F02|bare": {
+      "language_quality": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 2
+      },
+      "usable_overall": {
+        "win": 0,
+        "tie": 3,
+        "loss": 0,
+        "order_disagreements": 2
+      }
+    },
+    "gpt-6-luna|F02|humanizer": {
+      "language_quality": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|F02|bare": {
+      "language_quality": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 1,
+        "tie": 1,
+        "loss": 1,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|F03|bare": {
+      "language_quality": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 1,
+        "tie": 1,
+        "loss": 1,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|F03|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 2,
+        "tie": 0,
+        "loss": 1,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-5.6-terra|F03|humanizer": {
+      "language_quality": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 1,
+        "tie": 1,
+        "loss": 1,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-5.6-terra|F03|bare": {
+      "language_quality": {
+        "win": 1,
+        "tie": 2,
+        "loss": 0,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 1,
+        "tie": 1,
+        "loss": 1,
+        "order_disagreements": 1
+      }
+    },
+    "gpt-5.6-terra|F03|original": {
+      "language_quality": {
+        "win": 3,
+        "tie": 0,
+        "loss": 0,
+        "order_disagreements": 0
+      },
+      "usable_overall": {
+        "win": 2,
+        "tie": 0,
+        "loss": 1,
+        "order_disagreements": 0
+      }
+    },
+    "gpt-6-luna|F03|humanizer": {
+      "language_quality": {
+        "win": 2,
+        "tie": 1,
+        "loss": 0,
+        "order_disagreements": 1
+      },
+      "usable_overall": {
+        "win": 2,
+        "tie": 0,
+        "loss": 1,
+        "order_disagreements": 0
+      }
+    }
+  },
+  "quote_audit_flags": [],
+  "notes": [
+    "Quality dimensions are not combined into a composite score.",
+    "Worst fidelity is a conservative union of two model judgments, not verified ground truth.",
+    "An unfound quote is an audit flag, not an automatic reversal of the judgment.",
+    "Wall time includes tools and host overhead and is not pure model latency."
+  ]
+}

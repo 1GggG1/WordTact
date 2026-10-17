@@ -1,0 +1,6 @@
+{
+  "base_commit": "2528316bab3de1edd9ce983897133868b4d025e7",
+  "project_snapshots_match_base_commit": true,
+  "all_three_english_cases_match_pinned_dataset": true,
+  "dataset_sha256": "1a30452c33bd5379ff56159016d68ecd7e2669ede1e4ea77244c6e300952e9cb"
+}

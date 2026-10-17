@@ -1,0 +1,48 @@
+cases:
+  - id: quiet_breakfast
+    scenario: 日常早餐没有激烈争吵，但请求被回避，座位变化显示联系变远。
+    expected: 不因缺少激烈冲突失败；检查拒绝、关系微移或有代价的不行动。
+    source: user/novel-ci/references/checks-structure.md
+    markers: ["安静场景也可由拒绝", "不要为了通过本模块硬造争吵"]
+
+  - id: information_dialogue
+    scenario: 惯例问答被概述，真正包含发现与决定的句子进入直接对话。
+    expected: 区分直接、间接与概述；关键发现留在前景。
+    source: user/novel-expander/references/narrative-craft.md
+    markers: ["关键措辞本身会改变关系或决定", "在异常处切回直接对话"]
+
+  - id: years_fast_forward
+    scenario: 多年生产、旅行和例会被压缩，不可逆决定恢复为场景。
+    expected: 惯例压缩，连接省略，决定前景化。
+    source: user/novel-expander/references/narrative-craft.md
+    markers: ["篇幅应追随叙事重要性", "在不可逆变化处重新进入场景"]
+
+  - id: documentary_form
+    scenario: 报告体明确记录者、对象、删改动机和知识边界。
+    expected: 形式改变选材、措辞和遗漏，不只是排版。
+    source: user/novel-expander/references/narrative-craft.md
+    markers: ["视角契约包含六个", "不是换一个排版就成立"]
+
+  - id: functional_sensory_density
+    scenario: 多个感官分别建立方向、危险与身体状态。
+    expected: 不按数量误杀；只删除没有新增推断的感官清单。
+    source: user/novel-expander/references/anti-ai-patterns.md
+    markers: ["感官数量没有固定上限", "功能重复项再删，不按数量判错"]
+
+  - id: character_contradiction
+    scenario: 人物言语、动作和自我理解互相矛盾，但仍符合档案边界。
+    expected: 讨论本场调用哪组矛盾，不把复杂性误判成失真。
+    source: user/novel-discuss/references/lens-catalog.md
+    markers: ["本场调用人物哪组矛盾", "人物声音与行为红线"]
+
+  - id: recurring_object
+    scenario: 一个物件先解决现实问题，后来因易手和损坏积累意义。
+    expected: 先验证现实功能，不由叙述者宣布象征。
+    source: user/novel-expander/references/narrative-craft.md
+    markers: ["物件先要在现实中可用", "不要由叙述者宣布"]
+
+  - id: reader_prescription
+    scenario: 读者说“改第一人称”“这里节奏慢”。
+    expected: 先转成症状与原因假设，有证据才进入 failure。
+    source: user/novel-ci/references/workflow-review.md
+    markers: ["读者反馈是症状，不是现成 patch", "证据不足进入 RISK"]

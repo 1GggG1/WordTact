@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "P01",
+      "transcript": "用户：请润色这段中文，只由主 agent 完成，不开盲评。\n正文：我们正在对档案进行核对。",
+      "tools": "reviewer tool available",
+      "question": "根据技能，下一步是否应询问或派评阅者？给出下一步和理由。"
+    },
+    {
+      "id": "P02",
+      "transcript": "主 agent 已明确询问：是否加一轮独立盲评，默认一位评阅者，回复不开可跳过。随后完成初稿和原文核验，并留出合理反馈机会。用户没有拒绝。",
+      "tools": "reviewer tool available; no separate approval or budget gate pending",
+      "question": "根据技能，下一步是什么？准备评阅者材料时包含和排除哪些信息？"
+    },
+    {
+      "id": "P03",
+      "transcript": "用户已要求独立盲评。主 agent 已完成初稿。",
+      "tools": "no reviewer or delegation tool exists in this environment",
+      "question": "根据技能，如何完成并报告？"
+    },
+    {
+      "id": "P04",
+      "transcript": "用户没有拒绝已说明的盲评默认选项，初稿完成。",
+      "tools": "reviewer tool exists, but the host requires a separate approval which is still pending",
+      "question": "根据技能，能否立即派评阅者？主流程哪些部分仍可继续？"
+    }
+  ]
+}

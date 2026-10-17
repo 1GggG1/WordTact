@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "split": "holdout",
+  "common": {
+    "task": "请在所给目标、正文范围和上下文内作最小必要修订，保留可成立的原句；返回完整修订文本 text 和简短 findings，指出修改、保留与未解决事项。普通措辞判断自行完成，不追问。不得添加上下文没有依据的事实、人物名字或情节。",
+    "output_schema": {
+      "case_id": "输入ID",
+      "text": "完整修订文本",
+      "findings": [
+        {
+          "quote": "原文片段",
+          "decision": "changed|retained|unresolved",
+          "reason": "具体依据"
+        }
+      ]
+    },
+    "punctuation": "中文正文统一使用 ，。；：？！、 “”（外层）‘’（内层）（）《》〈〉 ——（两个U+2014）……（两个U+2026）·。代码、URL、型号、数字与明确要求原样保留的引文保留必要语法。",
+    "reader_condition": "连续阅读；提供的 reader_context 是读者已经见过的正文事实，不是未披露的全知真相。",
+    "scope_note": "全部为短片段，不能假称完成整章或全书验收。词频检查兼顾句式与聚集，不以清零为目标。",
+    "origin": "SYNTHETIC — all short cases are constructed evaluation material, not observed production errors."
+  },
+  "language_profile": {
+    "schema_version": 1,
+    "profile_id": "synthetic-evaluation-v1",
+    "revision": 1,
+    "scope": "构造中文片段的局部密度复核，不外推整章",
+    "calibration_sources": [
+      "SYNTHETIC evaluation design; triggers request contextual review, not mandatory deletion"
+    ],
+    "categories": [
+      {
+        "id": "sequence",
+        "label": "先……再",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "regex",
+            "value": "先[^。！？\\n]{1,40}再"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      },
+      {
+        "id": "check",
+        "label": "确认",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "literal",
+            "value": "确认"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      },
+      {
+        "id": "arrange",
+        "label": "安排",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "literal",
+            "value": "安排"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      },
+      {
+        "id": "again",
+        "label": "一遍",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "literal",
+            "value": "一遍"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      },
+      {
+        "id": "still",
+        "label": "仍",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "literal",
+            "value": "仍"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      },
+      {
+        "id": "bian",
+        "label": "便",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "literal",
+            "value": "便"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      },
+      {
+        "id": "casual",
+        "label": "顺手",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "literal",
+            "value": "顺手"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      }
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "H01",
+      "origin": "SYNTHETIC",
+      "scene": "罐头厂清晨",
+      "complete_chapter": false,
+      "text": "许师傅把封口样品看了一遍，又把温度记录看了一遍，再把墙上的排班看了一遍。小工跟着把样品看了一遍，问今天是不是还用昨晚那批胶圈。许师傅捻起一只，指给他看内侧那道裂口。",
+      "reader_context": "昨晚那批胶圈有裂口；尚未说明是否全部报废，小工不知道问题。",
+      "goals": "改善局部重复而不删除必要检查项目和小工的问题。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "H02",
+      "origin": "SYNTHETIC",
+      "scene": "厨房里的旧食谱",
+      "complete_chapter": false,
+      "text": "她把食谱翻到父亲夹了车票的那页，照着写得模糊的分量加盐。汤开了，她尝一口，又添半勺水。电话就在砧板旁边，屏幕一直黑着。她盛出两碗，把其中一碗挪到窗边，等它慢慢凉。",
+      "reader_context": "父亲已经离世，但本段不需要直接说明；她独自做饭，没有第二个人马上回家。",
+      "goals": "复核细节和安静情绪，避免补解释或制造来电转折。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "H03",
+      "origin": "SYNTHETIC",
+      "scene": "手术间交接",
+      "complete_chapter": false,
+      "text": "护士长说：“药箱两层分开，上层给现在用，下层封签留着。麻烦你确认药名、剂量和有效期，三项都对上才交给我。”实习生点头：“蓝盒子里那支也看？”“尤其那支。”她把托盘转了半圈，露出被压住的标签。",
+      "reader_context": "这是虚构医院场景，不补实际医疗剂量或治疗方案；下层药品不得拆封。",
+      "goals": "让交接清楚，保留上下级不同口吻；不要因正式要求较长就删成空泛指令。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "H04",
+      "origin": "SYNTHETIC",
+      "scene": "排练场的门",
+      "complete_chapter": false,
+      "text": "门第一次没开，演员说：“再来一次。”门第二次开了半扇，仍是这句：“再来一次。”第三次门掉了下来。他站在门框里，盯着观众席最前排的导演。导演摸出笔，在本子上写了四个字：“保留这段。”",
+      "reader_context": "两次相同要求与第三次门掉是预设节拍；导演的保留不是剧中台词，而是排练中的决定。",
+      "goals": "检查重复是否有效及引号结构，不把喜剧节拍压成事件梗概。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "H05",
+      "origin": "SYNTHETIC",
+      "scene": "邮局新来的送信员",
+      "complete_chapter": false,
+      "text": "新来的送信员把湿邮袋搁在柜台下，柜台里的女人递了条毛巾。新来的送信员道过谢，又从袋底取出一封没沾水的信。女人看见封面，手里的算盘停了。新来的送信员不认识那个地址，只问下午还走不走河东。",
+      "reader_context": "此前两场已以“新来的送信员”介绍同一人，作者尚未决定姓名；柜台女人是邮局负责人。",
+      "goals": "减少身份代称的机械复写，保持指代清楚，不擅自给人命名。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "H06",
+      "origin": "SYNTHETIC",
+      "scene": "矿道的回声",
+      "complete_chapter": false,
+      "text": "听声辨位最多只能告诉他们裂缝大致在哪一段，不能证明里面没人。领班把手电压低，让两个人留在支柱外。他自己只往前挪了半步，敲了三下。第二下之后，深处像有东西也响了一声。",
+      "reader_context": "暂无可靠方式确认深处是人、碎石还是回声；两名工人未进入支柱以内。",
+      "goals": "理顺叙述，保留能力上限、未知来源与动作距离。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "H07",
+      "origin": "SYNTHETIC",
+      "scene": "合唱团散场",
+      "complete_chapter": false,
+      "text": "最后一遍已经唱完，钢琴盖还没合。领唱仍在翻谱，仍用指甲抵着那个升号，仍朝后排看。指挥没有再举手，只把谱架往他那边推了推：“带回去，明天再问。”",
+      "reader_context": "排练结束，不再加唱；领唱的疑问尚未解决。",
+      "goals": "减轻仍的聚集，保留已完成的排练与未解决的疑问。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "H08",
+      "origin": "SYNTHETIC",
+      "scene": "博物馆钥匙",
+      "complete_chapter": false,
+      "text": "保安把钥匙放在台阶上，退开两步。修复师看着他，没有弯腰。“你说值班室还有一把？”“登记本上有。”他说。她等到脚步声消失，才用手帕包起钥匙。",
+      "reader_context": "限定修复师视角；登记本记有备用钥匙，但保安没有亲眼确认备用钥匙现在的位置，人物互信未定。",
+      "goals": "澄清必要指代，保留话语证据的限度和未说破的戒心。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "H09",
+      "origin": "SYNTHETIC",
+      "scene": "档案馆终端",
+      "complete_chapter": false,
+      "text": "屏幕跳出「请阅读《旧城志》中的〈水门〉一节」。值班员说:\"先别点确认......\"\n```yaml\narchive: \"west-gate\"\nversion: 3.4\n```\n梅青把备注记成“书里叫‘西门’，系统却写west-gate”，没有改配置。",
+      "reader_context": "代码块内容和west-gate标识必须逐字保留；书名及篇名对应旧城志与水门，不新增解释其为何不一致。",
+      "goals": "统一中文正文标点，保护配置格式与已有的嵌套引号。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "H10",
+      "origin": "SYNTHETIC",
+      "scene": "屋顶上的集会",
+      "complete_chapter": false,
+      "text": "沿河有三座屋顶，东边那座先亮了灯。送报人说三座屋顶都同意明天关店。老人抬眼看他：“你问的是屋主，还是住户？”送报人把帽子拿下来，才说只问过各家的房东。",
+      "reader_context": "三座屋顶指三栋房屋；关店影响楼下租户；房东表态不能等同所有住户同意。",
+      "goals": "修复让人误解的转喻或表述，同时保留老人追问揭示信息缺口的过程。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "H11",
+      "origin": "SYNTHETIC",
+      "scene": "冰原运输",
+      "complete_chapter": false,
+      "text": "他们的雪车每小时能走十二公里。测绘员把营地到峡口的二十四公里圈起来，说至少要两小时。风还在加大，车长让报务员回电：“无停顿时两小时，遇到横风就慢走，别按两小时催我们到。”他把“十二”写在地图边上，供下一班接手。",
+      "reader_context": "十二公里每小时是无停顿基准；二十四公里路程已测定；横风会减速，没有已经到达。",
+      "goals": "检查数字复现是否有计算、报告或交接用途，不机械删除全部重复。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "H12",
+      "origin": "SYNTHETIC",
+      "scene": "庭上的纠正",
+      "complete_chapter": false,
+      "text": "“不是我签的，是我替他送去的。”证人把两只手并拢，抵着桌沿。书记员读了一遍刚记下的句子：“你替他签好送去？”“不是签好。”他急了，“文件到我手里时，名字已经在上头。”",
+      "reader_context": "证人否认自己签字，只承认送件；签名真假和实际签字者都未知。",
+      "goals": "保留必要辨析，减少不必要的卡顿而不压掉纠正内容。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    }
+  ]
+}

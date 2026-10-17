@@ -1,0 +1,1403 @@
+{
+  "P3074fac893fe": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T865e43f38b03"
+  },
+  "P8979d17fb016": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T865e43f38b03"
+  },
+  "Pdaa78a7a5bf4": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T865e43f38b03"
+  },
+  "P96d16f0b0f1f": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "Ta46e80651590"
+  },
+  "Pd0774dfa56f4": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "Ta46e80651590"
+  },
+  "P24e6d8dec2a5": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "Ta46e80651590"
+  },
+  "P6a092d17afcc": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T9684f7ae7c1d"
+  },
+  "P6c0925391199": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T9684f7ae7c1d"
+  },
+  "P472211c8ba8d": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T9684f7ae7c1d"
+  },
+  "Pcab8ef7a017c": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T5c800717811b"
+  },
+  "P5fb011f705ac": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T5c800717811b"
+  },
+  "P86631f1a1368": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T5c800717811b"
+  },
+  "Pcc104925bbd0": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T84d0060e7f66"
+  },
+  "P8c0fdc9e2fb3": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T84d0060e7f66"
+  },
+  "Pb15e6afbe8fe": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T84d0060e7f66"
+  },
+  "P171ab4a4d686": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T3e20180676b5"
+  },
+  "Pf47ec055d2ea": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T3e20180676b5"
+  },
+  "Pd227f30f7685": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T3e20180676b5"
+  },
+  "C01": {
+    "keys": {
+      "gpt-5.6-terra__C01__bare__r1": "T015ccbf1e83c",
+      "gpt-5.6-terra__C01__bare__r2": "Tbfba687a67f0",
+      "gpt-5.6-terra__C01__bare__r3": "T3b0d8ca865fe",
+      "gpt-5.6-terra__C01__humanizer__r1": "T6efda8adcb36",
+      "gpt-5.6-terra__C01__humanizer__r2": "T5006a2b506e8",
+      "gpt-5.6-terra__C01__humanizer__r3": "T8d419f4d4514",
+      "gpt-5.6-terra__C01__project__r1": "T5c800717811b",
+      "gpt-5.6-terra__C01__project__r2": "T84d0060e7f66",
+      "gpt-5.6-terra__C01__project__r3": "T3e20180676b5",
+      "gpt-6-luna__C01__bare__r1": "T3e4827202e23",
+      "gpt-6-luna__C01__bare__r2": "T23f0b3655736",
+      "gpt-6-luna__C01__bare__r3": "T0489850ac89e",
+      "gpt-6-luna__C01__humanizer__r1": "T6d90360649c3",
+      "gpt-6-luna__C01__humanizer__r2": "Ta2dad89d710f",
+      "gpt-6-luna__C01__humanizer__r3": "T84e486ef560a",
+      "gpt-6-luna__C01__project__r1": "T865e43f38b03",
+      "gpt-6-luna__C01__project__r2": "Ta46e80651590",
+      "gpt-6-luna__C01__project__r3": "T9684f7ae7c1d"
+    },
+    "original": "T58ccf673fc5c"
+  },
+  "Pe2f596b11c55": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T275b21d30b81"
+  },
+  "Pc96769c70060": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T275b21d30b81"
+  },
+  "Pdb7bafc7b082": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T275b21d30b81"
+  },
+  "Pd661e5e38d65": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T9e7b3d35fdf3"
+  },
+  "Pa2b88fd91953": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T9e7b3d35fdf3"
+  },
+  "Pce86f2dfa023": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T9e7b3d35fdf3"
+  },
+  "Pac9590647306": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Ta43302f2147a"
+  },
+  "P65e08b39ddfa": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Ta43302f2147a"
+  },
+  "P237d8b64e10c": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "Ta43302f2147a"
+  },
+  "P144980efc67e": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T0556bdabfaa7"
+  },
+  "Pf7dcae418469": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T0556bdabfaa7"
+  },
+  "Pedc9ab2a9114": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T0556bdabfaa7"
+  },
+  "Pa119d9f91988": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T080d90744b2d"
+  },
+  "P9a6fb32043a7": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T080d90744b2d"
+  },
+  "Pd605a2e421c6": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T080d90744b2d"
+  },
+  "P50c475c9f093": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Tac9ec5079b29"
+  },
+  "P90dbb9cde1e3": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Tac9ec5079b29"
+  },
+  "Pc6165c922be2": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "Tac9ec5079b29"
+  },
+  "C02": {
+    "keys": {
+      "gpt-5.6-terra__C02__bare__r1": "T8da63eeceea4",
+      "gpt-5.6-terra__C02__bare__r2": "Tde3906f4ab6d",
+      "gpt-5.6-terra__C02__bare__r3": "Te021242d1fce",
+      "gpt-5.6-terra__C02__humanizer__r1": "Tdd8f0ff6acf7",
+      "gpt-5.6-terra__C02__humanizer__r2": "Ta47eed53b9f9",
+      "gpt-5.6-terra__C02__humanizer__r3": "T3e7ed5722d6d",
+      "gpt-5.6-terra__C02__project__r1": "T0556bdabfaa7",
+      "gpt-5.6-terra__C02__project__r2": "T080d90744b2d",
+      "gpt-5.6-terra__C02__project__r3": "Tac9ec5079b29",
+      "gpt-6-luna__C02__bare__r1": "T6bfaca7e843b",
+      "gpt-6-luna__C02__bare__r2": "Tc1e1b4a90722",
+      "gpt-6-luna__C02__bare__r3": "Tf2884c198fd6",
+      "gpt-6-luna__C02__humanizer__r1": "Tb914e2e04471",
+      "gpt-6-luna__C02__humanizer__r2": "T367f5f308782",
+      "gpt-6-luna__C02__humanizer__r3": "T895e6fe1b840",
+      "gpt-6-luna__C02__project__r1": "T275b21d30b81",
+      "gpt-6-luna__C02__project__r2": "T9e7b3d35fdf3",
+      "gpt-6-luna__C02__project__r3": "Ta43302f2147a"
+    },
+    "original": "Tc2f5729818e6"
+  },
+  "Pf608a0428daa": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T81f52c3e7ca1"
+  },
+  "Peabb7426e045": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T81f52c3e7ca1"
+  },
+  "P9be93caad5b9": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T81f52c3e7ca1"
+  },
+  "P0d3685e74c07": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T85d7a2afdb3e"
+  },
+  "Pf27dafc6ba7b": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T85d7a2afdb3e"
+  },
+  "P1a771a28b759": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T85d7a2afdb3e"
+  },
+  "Pc8ec8c7b21a3": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T7d890223a067"
+  },
+  "Pa394351878e0": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T7d890223a067"
+  },
+  "P92c177977bf0": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T7d890223a067"
+  },
+  "P5be82b1d56e9": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T9656e7da8c15"
+  },
+  "P5377197eb1a1": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T9656e7da8c15"
+  },
+  "P6cb6515366c5": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T9656e7da8c15"
+  },
+  "P00bca6f73ced": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "Taf1fab4f5cc2"
+  },
+  "Pa2be60c4d76d": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "Taf1fab4f5cc2"
+  },
+  "Pd8d54ef8f72d": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "Taf1fab4f5cc2"
+  },
+  "Pbeec581e2353": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Tde070b5e4c1e"
+  },
+  "P0e7ad12a9ca2": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Tde070b5e4c1e"
+  },
+  "Pb13ea1886426": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "Tde070b5e4c1e"
+  },
+  "C03": {
+    "keys": {
+      "gpt-5.6-terra__C03__bare__r1": "Tdb57721a023a",
+      "gpt-5.6-terra__C03__bare__r2": "T10569f635b9d",
+      "gpt-5.6-terra__C03__bare__r3": "Te26b4b981794",
+      "gpt-5.6-terra__C03__humanizer__r1": "T1d2809d1a394",
+      "gpt-5.6-terra__C03__humanizer__r2": "Tcda9637610c3",
+      "gpt-5.6-terra__C03__humanizer__r3": "T2e7689d12572",
+      "gpt-5.6-terra__C03__project__r1": "T9656e7da8c15",
+      "gpt-5.6-terra__C03__project__r2": "Taf1fab4f5cc2",
+      "gpt-5.6-terra__C03__project__r3": "Tde070b5e4c1e",
+      "gpt-6-luna__C03__bare__r1": "Tfb56fbe01587",
+      "gpt-6-luna__C03__bare__r2": "Td4b4fbd7cc16",
+      "gpt-6-luna__C03__bare__r3": "Te02931d62178",
+      "gpt-6-luna__C03__humanizer__r1": "Tc82d250d99d9",
+      "gpt-6-luna__C03__humanizer__r2": "Tf95d367beefb",
+      "gpt-6-luna__C03__humanizer__r3": "Tff6d7dc90718",
+      "gpt-6-luna__C03__project__r1": "T81f52c3e7ca1",
+      "gpt-6-luna__C03__project__r2": "T85d7a2afdb3e",
+      "gpt-6-luna__C03__project__r3": "T7d890223a067"
+    },
+    "original": "T61f25f949dd6"
+  },
+  "P2dbeadbdd626": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T5314f8f7382b"
+  },
+  "Pb10773d8514e": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T5314f8f7382b"
+  },
+  "P391373cca275": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T5314f8f7382b"
+  },
+  "Pd69f8304bca8": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T81e61bf09a9b"
+  },
+  "P732bf5eec1d2": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T81e61bf09a9b"
+  },
+  "P5b3f1a8a0464": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T81e61bf09a9b"
+  },
+  "P4ba7c2c2ca0f": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Td1922d4eda4e"
+  },
+  "P31efffd15d73": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Td1922d4eda4e"
+  },
+  "Pc57605b79540": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "Td1922d4eda4e"
+  },
+  "P83b9ec58e52e": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T1cbeba2fd51c"
+  },
+  "Pe24dc927d322": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T1cbeba2fd51c"
+  },
+  "Pce63ebe1d1c8": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T1cbeba2fd51c"
+  },
+  "Pb66687f10fd7": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T17f40aa4f6e4"
+  },
+  "Pcff5dcab02dd": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T17f40aa4f6e4"
+  },
+  "P6415f5c1ff41": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T17f40aa4f6e4"
+  },
+  "Pe911b5c8bfc5": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T771119bc3e70"
+  },
+  "P8bceb678c053": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T771119bc3e70"
+  },
+  "P974c850aa735": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T771119bc3e70"
+  },
+  "E01": {
+    "keys": {
+      "gpt-5.6-terra__E01__bare__r1": "T1c875f1286b9",
+      "gpt-5.6-terra__E01__bare__r2": "T92f45824f97e",
+      "gpt-5.6-terra__E01__bare__r3": "T099b253e74b3",
+      "gpt-5.6-terra__E01__humanizer__r1": "T5a49ac1be96d",
+      "gpt-5.6-terra__E01__humanizer__r2": "T2b2b21d7e688",
+      "gpt-5.6-terra__E01__humanizer__r3": "T79cbcffc4721",
+      "gpt-5.6-terra__E01__project__r1": "T1cbeba2fd51c",
+      "gpt-5.6-terra__E01__project__r2": "T17f40aa4f6e4",
+      "gpt-5.6-terra__E01__project__r3": "T771119bc3e70",
+      "gpt-6-luna__E01__bare__r1": "Td2a3dfb683aa",
+      "gpt-6-luna__E01__bare__r2": "T0078d53678ce",
+      "gpt-6-luna__E01__bare__r3": "Tb6d3de068630",
+      "gpt-6-luna__E01__humanizer__r1": "Ted17c4a198d8",
+      "gpt-6-luna__E01__humanizer__r2": "T231193f189b8",
+      "gpt-6-luna__E01__humanizer__r3": "T4a2a2f630c6f",
+      "gpt-6-luna__E01__project__r1": "T5314f8f7382b",
+      "gpt-6-luna__E01__project__r2": "T81e61bf09a9b",
+      "gpt-6-luna__E01__project__r3": "Td1922d4eda4e"
+    },
+    "original": "Tbf68fb3d1d80"
+  },
+  "P22cdd842ed17": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T22a8239612d6"
+  },
+  "P1d59ec8497e4": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T22a8239612d6"
+  },
+  "P535a48d02429": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T22a8239612d6"
+  },
+  "P6aed880af0f6": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T1fd0c4a64be2"
+  },
+  "Pc8651e66682f": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T1fd0c4a64be2"
+  },
+  "Pafe4c1dc036a": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T1fd0c4a64be2"
+  },
+  "P2f03c1b2373d": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T7a9403ab952b"
+  },
+  "P3c038fd05872": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T7a9403ab952b"
+  },
+  "P0464e53bce4d": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T7a9403ab952b"
+  },
+  "Pf1d367595ebd": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T1819afa1cbfc"
+  },
+  "Pdd53022fdd20": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T1819afa1cbfc"
+  },
+  "Pa3201fcd3f10": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T1819afa1cbfc"
+  },
+  "P5033f4d4df03": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "Tb06e0c3d24b9"
+  },
+  "P94573b9f6cc7": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "Tb06e0c3d24b9"
+  },
+  "P314228866f05": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "Tb06e0c3d24b9"
+  },
+  "P03a82ca6d5b9": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T457a2be5576b"
+  },
+  "P9d9ab266d0cd": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T457a2be5576b"
+  },
+  "Pf792d79ee0f2": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T457a2be5576b"
+  },
+  "E02": {
+    "keys": {
+      "gpt-5.6-terra__E02__bare__r1": "Tefe388d27fc6",
+      "gpt-5.6-terra__E02__bare__r2": "Tb24024666b4b",
+      "gpt-5.6-terra__E02__bare__r3": "T5c6005384ce9",
+      "gpt-5.6-terra__E02__humanizer__r1": "Tb7b3f6d7c31b",
+      "gpt-5.6-terra__E02__humanizer__r2": "T5a90ad30d7ce",
+      "gpt-5.6-terra__E02__humanizer__r3": "Tdc849abbd3de",
+      "gpt-5.6-terra__E02__project__r1": "T1819afa1cbfc",
+      "gpt-5.6-terra__E02__project__r2": "Tb06e0c3d24b9",
+      "gpt-5.6-terra__E02__project__r3": "T457a2be5576b",
+      "gpt-6-luna__E02__bare__r1": "T7175d089707a",
+      "gpt-6-luna__E02__bare__r2": "T29ddacd9aaaa",
+      "gpt-6-luna__E02__bare__r3": "Tb2262d68cb95",
+      "gpt-6-luna__E02__humanizer__r1": "T812f390b7bfb",
+      "gpt-6-luna__E02__humanizer__r2": "Te7acd05ead7b",
+      "gpt-6-luna__E02__humanizer__r3": "Tdc41b5af4ecc",
+      "gpt-6-luna__E02__project__r1": "T22a8239612d6",
+      "gpt-6-luna__E02__project__r2": "T1fd0c4a64be2",
+      "gpt-6-luna__E02__project__r3": "T7a9403ab952b"
+    },
+    "original": "T4f3caa47dba3"
+  },
+  "P68ebdbcb1db6": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "Tccba910ffe67"
+  },
+  "Pf08272fd1f01": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "Tccba910ffe67"
+  },
+  "Pf3a6554e6403": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "Tccba910ffe67"
+  },
+  "P10dbb09f92cf": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "Tecba62b4e27e"
+  },
+  "P439e1c094566": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "Tecba62b4e27e"
+  },
+  "P7baab75d5153": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "Tecba62b4e27e"
+  },
+  "P3d156875fc3a": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T0fee8f321583"
+  },
+  "P7f54d1ef2d9e": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T0fee8f321583"
+  },
+  "P800e36dcb7b9": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T0fee8f321583"
+  },
+  "P97cbf8671f5d": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "Tec54762b682e"
+  },
+  "P33fd7078f32e": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "Tec54762b682e"
+  },
+  "Pa5ef8b8267f5": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "Tec54762b682e"
+  },
+  "P7f207d0c6c72": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T166fce36723e"
+  },
+  "P56f28b956b79": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T166fce36723e"
+  },
+  "P706fab478a2c": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T166fce36723e"
+  },
+  "P15dc47215459": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Tdf7129f7f170"
+  },
+  "P8799d52feb85": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Tdf7129f7f170"
+  },
+  "P94ac0e289757": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "Tdf7129f7f170"
+  },
+  "E03": {
+    "keys": {
+      "gpt-5.6-terra__E03__bare__r1": "T9a2243d57b45",
+      "gpt-5.6-terra__E03__bare__r2": "Td3cb844172a1",
+      "gpt-5.6-terra__E03__bare__r3": "T1c7a6e565b4d",
+      "gpt-5.6-terra__E03__humanizer__r1": "T943dd27d4cc9",
+      "gpt-5.6-terra__E03__humanizer__r2": "T806ae8d7861e",
+      "gpt-5.6-terra__E03__humanizer__r3": "Tc2f4e510673c",
+      "gpt-5.6-terra__E03__project__r1": "Tec54762b682e",
+      "gpt-5.6-terra__E03__project__r2": "T166fce36723e",
+      "gpt-5.6-terra__E03__project__r3": "Tdf7129f7f170",
+      "gpt-6-luna__E03__bare__r1": "Tb1807057f680",
+      "gpt-6-luna__E03__bare__r2": "T406d2f2309fc",
+      "gpt-6-luna__E03__bare__r3": "Taeb52d911c3d",
+      "gpt-6-luna__E03__humanizer__r1": "T23ce3d2771cb",
+      "gpt-6-luna__E03__humanizer__r2": "T2b401a73d8bf",
+      "gpt-6-luna__E03__humanizer__r3": "T37f8882b5064",
+      "gpt-6-luna__E03__project__r1": "Tccba910ffe67",
+      "gpt-6-luna__E03__project__r2": "Tecba62b4e27e",
+      "gpt-6-luna__E03__project__r3": "T0fee8f321583"
+    },
+    "original": "Tc49d525365fd"
+  },
+  "P04dd1311c9e4": {
+    "model": "gpt-6-luna",
+    "case_id": "F01",
+    "product": "novel",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T29ec9b80856f"
+  },
+  "Pc39c48993332": {
+    "model": "gpt-6-luna",
+    "case_id": "F01",
+    "product": "novel",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T14092a516d7c"
+  },
+  "P942bc57d3cc4": {
+    "model": "gpt-6-luna",
+    "case_id": "F01",
+    "product": "novel",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Tca99ce790ab2"
+  },
+  "P3bbb585453f0": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F01",
+    "product": "novel",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T9ce2d3fd1c53"
+  },
+  "P5b7e6ecccda9": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F01",
+    "product": "novel",
+    "repeat": 2,
+    "control": "bare",
+    "target": "Tfbe11d16c295"
+  },
+  "Pf7db1b71fd95": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F01",
+    "product": "novel",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T4b539c3e1c20"
+  },
+  "F01": {
+    "keys": {
+      "gpt-5.6-terra__F01__bare__r1": "Tb93de9da432c",
+      "gpt-5.6-terra__F01__bare__r2": "Ta113e6ab7cac",
+      "gpt-5.6-terra__F01__bare__r3": "Te1e1aa3722f7",
+      "gpt-5.6-terra__F01__project__r1": "T9ce2d3fd1c53",
+      "gpt-5.6-terra__F01__project__r2": "Tfbe11d16c295",
+      "gpt-5.6-terra__F01__project__r3": "T4b539c3e1c20",
+      "gpt-6-luna__F01__bare__r1": "Td29172e5304e",
+      "gpt-6-luna__F01__bare__r2": "T878f572b43b8",
+      "gpt-6-luna__F01__bare__r3": "T5d31f79d0c1a",
+      "gpt-6-luna__F01__project__r1": "T29ec9b80856f",
+      "gpt-6-luna__F01__project__r2": "T14092a516d7c",
+      "gpt-6-luna__F01__project__r3": "Tca99ce790ab2"
+    },
+    "original": null
+  },
+  "P3e0654c6b1a2": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 1,
+    "control": "bare",
+    "target": "Td57be7fa6fc5"
+  },
+  "P30498b5d3e5d": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "Td57be7fa6fc5"
+  },
+  "Pedca924dadd6": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 1,
+    "control": "original",
+    "target": "Td57be7fa6fc5"
+  },
+  "P8cd794ff1eeb": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T5a2a57212c86"
+  },
+  "P659733bdf0b0": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T5a2a57212c86"
+  },
+  "P2cd8ec67cfd2": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 2,
+    "control": "original",
+    "target": "T5a2a57212c86"
+  },
+  "Pcc947afc2122": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Tbea69879b733"
+  },
+  "P62389b3a8f9b": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Tbea69879b733"
+  },
+  "Pd903ee3787d2": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 3,
+    "control": "original",
+    "target": "Tbea69879b733"
+  },
+  "P1f41a91df2a5": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T9919c63247c1"
+  },
+  "Pff8da431130b": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T9919c63247c1"
+  },
+  "Pd6e1eb3854da": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 1,
+    "control": "original",
+    "target": "T9919c63247c1"
+  },
+  "Pdea7d2db5b7c": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T035c33fe8bf2"
+  },
+  "Pee9a278ea079": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T035c33fe8bf2"
+  },
+  "P486fa2cd7d1d": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 2,
+    "control": "original",
+    "target": "T035c33fe8bf2"
+  },
+  "Pdd409f054c28": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T079a7c1c7766"
+  },
+  "Pd2e59f786f0e": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T079a7c1c7766"
+  },
+  "Pf60157a5565f": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 3,
+    "control": "original",
+    "target": "T079a7c1c7766"
+  },
+  "F02": {
+    "keys": {
+      "gpt-5.6-terra__F02__bare__r1": "T2feed922ddd3",
+      "gpt-5.6-terra__F02__bare__r2": "Te781bd6bb460",
+      "gpt-5.6-terra__F02__bare__r3": "T652144973613",
+      "gpt-5.6-terra__F02__humanizer__r1": "T12f870dfea31",
+      "gpt-5.6-terra__F02__humanizer__r2": "T8906f8f52b2e",
+      "gpt-5.6-terra__F02__humanizer__r3": "T84ddbfb22bc8",
+      "gpt-5.6-terra__F02__project__r1": "T9919c63247c1",
+      "gpt-5.6-terra__F02__project__r2": "T035c33fe8bf2",
+      "gpt-5.6-terra__F02__project__r3": "T079a7c1c7766",
+      "gpt-6-luna__F02__bare__r1": "Ta7fdf74dd311",
+      "gpt-6-luna__F02__bare__r2": "Te17ce30f2040",
+      "gpt-6-luna__F02__bare__r3": "T4fcf97d50324",
+      "gpt-6-luna__F02__humanizer__r1": "Tfa0baa656024",
+      "gpt-6-luna__F02__humanizer__r2": "Tcd1e9f1c80e1",
+      "gpt-6-luna__F02__humanizer__r3": "T1da625e13c2e",
+      "gpt-6-luna__F02__project__r1": "Td57be7fa6fc5",
+      "gpt-6-luna__F02__project__r2": "T5a2a57212c86",
+      "gpt-6-luna__F02__project__r3": "Tbea69879b733"
+    },
+    "original": "T67a04dd5af0a"
+  },
+  "Pd1cd6a993ad5": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 1,
+    "control": "bare",
+    "target": "Taeeeaa3b31dc"
+  },
+  "Pb8f8dc4de11c": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "Taeeeaa3b31dc"
+  },
+  "Pe3460ecd5b86": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 1,
+    "control": "original",
+    "target": "Taeeeaa3b31dc"
+  },
+  "Pc8db663f405e": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T7d961973d8d8"
+  },
+  "Pcdb8bcb5d576": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T7d961973d8d8"
+  },
+  "P92e8a46213d8": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 2,
+    "control": "original",
+    "target": "T7d961973d8d8"
+  },
+  "Pc3ffe5000e44": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Tba444f356bfb"
+  },
+  "P317515d9e6f3": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Tba444f356bfb"
+  },
+  "Pb200d8922b27": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 3,
+    "control": "original",
+    "target": "Tba444f356bfb"
+  },
+  "P991ec2d9c68c": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 1,
+    "control": "bare",
+    "target": "Tdfe98379b099"
+  },
+  "P29b6ac020b5b": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "Tdfe98379b099"
+  },
+  "P097f504a9d19": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 1,
+    "control": "original",
+    "target": "Tdfe98379b099"
+  },
+  "Pdc7f58311505": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 2,
+    "control": "bare",
+    "target": "Ted6d4d71d199"
+  },
+  "Pb1cd16911471": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "Ted6d4d71d199"
+  },
+  "Pa57f8e6f330d": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 2,
+    "control": "original",
+    "target": "Ted6d4d71d199"
+  },
+  "P57f3fd8d93ca": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T5df4aca9ab25"
+  },
+  "P4c8d37232605": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T5df4aca9ab25"
+  },
+  "P26adafb6c816": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 3,
+    "control": "original",
+    "target": "T5df4aca9ab25"
+  },
+  "F03": {
+    "keys": {
+      "gpt-5.6-terra__F03__bare__r1": "Tfa45d88f748f",
+      "gpt-5.6-terra__F03__bare__r2": "Te0768693f89b",
+      "gpt-5.6-terra__F03__bare__r3": "T3b90682df169",
+      "gpt-5.6-terra__F03__humanizer__r1": "Ta799a80578b8",
+      "gpt-5.6-terra__F03__humanizer__r2": "T17464fcc21c2",
+      "gpt-5.6-terra__F03__humanizer__r3": "T5be6b099774f",
+      "gpt-5.6-terra__F03__project__r1": "Tdfe98379b099",
+      "gpt-5.6-terra__F03__project__r2": "Ted6d4d71d199",
+      "gpt-5.6-terra__F03__project__r3": "T5df4aca9ab25",
+      "gpt-6-luna__F03__bare__r1": "T3f2910a8701b",
+      "gpt-6-luna__F03__bare__r2": "T58a8791ff61e",
+      "gpt-6-luna__F03__bare__r3": "T6b89fdddecbf",
+      "gpt-6-luna__F03__humanizer__r1": "T97a7d21411fa",
+      "gpt-6-luna__F03__humanizer__r2": "T7d6f987607a1",
+      "gpt-6-luna__F03__humanizer__r3": "T0fe179e80ef8",
+      "gpt-6-luna__F03__project__r1": "Taeeeaa3b31dc",
+      "gpt-6-luna__F03__project__r2": "T7d961973d8d8",
+      "gpt-6-luna__F03__project__r3": "Tba444f356bfb"
+    },
+    "original": "T2efb83684d53"
+  }
+}

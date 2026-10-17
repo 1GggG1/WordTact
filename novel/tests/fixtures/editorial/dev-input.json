@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "split": "dev",
+  "common": {
+    "task": "请在所给目标、正文范围和上下文内作最小必要修订，保留可成立的原句；返回完整修订文本 text 和简短 findings，指出修改、保留与未解决事项。普通措辞判断自行完成，不追问。不得添加上下文没有依据的事实、人物名字或情节。",
+    "output_schema": {
+      "case_id": "输入ID",
+      "text": "完整修订文本",
+      "findings": [
+        {
+          "quote": "原文片段",
+          "decision": "changed|retained|unresolved",
+          "reason": "具体依据"
+        }
+      ]
+    },
+    "punctuation": "中文正文统一使用 ，。；：？！、 “”（外层）‘’（内层）（）《》〈〉 ——（两个U+2014）……（两个U+2026）·。代码、URL、型号、数字与明确要求原样保留的引文保留必要语法。",
+    "reader_condition": "连续阅读；提供的 reader_context 是读者已经见过的正文事实，不是未披露的全知真相。",
+    "scope_note": "全部为短片段，不能假称完成整章或全书验收。词频检查兼顾句式与聚集，不以清零为目标。",
+    "origin": "SYNTHETIC — all short cases are constructed evaluation material, not observed production errors."
+  },
+  "language_profile": {
+    "schema_version": 1,
+    "profile_id": "synthetic-evaluation-v1",
+    "revision": 1,
+    "scope": "构造中文片段的局部密度复核，不外推整章",
+    "calibration_sources": [
+      "SYNTHETIC evaluation design; triggers request contextual review, not mandatory deletion"
+    ],
+    "categories": [
+      {
+        "id": "sequence",
+        "label": "先……再",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "regex",
+            "value": "先[^。！？\\n]{1,40}再"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      },
+      {
+        "id": "check",
+        "label": "确认",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "literal",
+            "value": "确认"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      },
+      {
+        "id": "arrange",
+        "label": "安排",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "literal",
+            "value": "安排"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      },
+      {
+        "id": "again",
+        "label": "一遍",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "literal",
+            "value": "一遍"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      },
+      {
+        "id": "still",
+        "label": "仍",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "literal",
+            "value": "仍"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      },
+      {
+        "id": "bian",
+        "label": "便",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "literal",
+            "value": "便"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      },
+      {
+        "id": "casual",
+        "label": "顺手",
+        "definition": "LLM 按上下文区分实际用法、局部聚集及是否必要",
+        "forms": [
+          {
+            "kind": "literal",
+            "value": "顺手"
+          }
+        ],
+        "thresholds": {
+          "paragraph_at_least": 2,
+          "chapter_at_least": 2
+        }
+      }
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "D01",
+      "origin": "SYNTHETIC",
+      "scene": "山路救援",
+      "complete_chapter": false,
+      "text": "阿芹先把绳头递给老唐，再去搬石块。老唐先把绳子绕过树干，再让她试拉。她先把石块压在绳边，再回头喊孩子。桥板已经断了两块，河里的树枝不断撞上桥墩。孩子蹲在对岸，听见她喊第三声才抬头。",
+      "reader_context": "桥板刚断，只有阿芹与老唐在这一岸，孩子在对岸；尚未有人过河。",
+      "goals": "处理重复的动作编排句式，保持空间、顺序和救援尚未完成的状态。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "D02",
+      "origin": "SYNTHETIC",
+      "scene": "病房里的橘子",
+      "complete_chapter": false,
+      "text": "母亲剥开橘子，把最小的一瓣放在杯盖上。父亲没有伸手，先把被角往里掖了一点。她等了会儿，又把那瓣橘子拿回来，分成两半。走廊的推车经过，杯盖轻轻响了一声。父亲这才张嘴。",
+      "reader_context": "父亲手术后吞咽困难；两人没有争吵，也不准备在此场揭示秘密。",
+      "goals": "检查表达与节奏，保留以动作表现照料的安静场景。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "D03",
+      "origin": "SYNTHETIC",
+      "scene": "雨夜调度室",
+      "complete_chapter": false,
+      "text": "调度员说：“先确认东线有无落石，再确认西线电闸已经断开，最后确认抢修组到站。”站长拿过电话：“老赵，东线让巡道员步行检查，没回报就别放车；小陈把西线断电回执给我。抢修组到了，让他们在二站台等，别往轨道上走。”值班学徒把“二站台”圈了两遍。",
+      "reader_context": "东线落石未知；西线断电尚待回执；抢修组未到；老赵负责巡道，小陈负责电力联络。",
+      "goals": "复核正式指令是否说全，减轻重复词语但不删执行对象、条件或人物口气。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "D04",
+      "origin": "SYNTHETIC",
+      "scene": "雨棚下的游戏",
+      "complete_chapter": false,
+      "text": "小满对着水坑喊：“开门！”水纹晃了晃。“开门！”她这次把树枝举过头顶。哥哥蹲在雨棚底下，捏住鼻子替门答：“口令错啦。”她想了半天，郑重地喊第三声：“开门！”哥哥终于笑倒了。",
+      "reader_context": "作者指定三声相同的“开门”为游戏节拍，哥哥假装门回答；这里没有真的魔法。",
+      "goals": "检查是否需要小幅润色，保留指定笑点和儿童声音。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "D05",
+      "origin": "SYNTHETIC",
+      "scene": "菜场优惠券",
+      "complete_chapter": false,
+      "text": "满二十元才能用券，这一点她在入口就看清了。摊主称好青菜，说还差两块。她又拿了两根葱。只有买满二十元，那张券才抵得了钱，所以她得再添一点。摊主把葱扔上秤，秤杆抬了起来。",
+      "reader_context": "上一段已展示券面“满二十减五”；同一人同一次买菜，没有新听众。",
+      "goals": "压缩本次交易中没有增量的规则解释，保持购买动作。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "D06",
+      "origin": "SYNTHETIC",
+      "scene": "旧书摊讨价",
+      "complete_chapter": false,
+      "text": "“图个方便，随便翻。”摊主把箱子推过来，“这本便宜，顺便带走？”叶青没应，翻到缺页处便停了手。摊主见她皱眉，便把价签翻过去，露出背面的补页说明。",
+      "reader_context": "这是正常买卖；便宜是价格低，方便、随便、顺便均是词内成分。价签背面事先已有补页说明。",
+      "goals": "区分同字不同用法，检查局部语言习惯；不为降低便字总数破坏自然词语。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "D07",
+      "origin": "SYNTHETIC",
+      "scene": "雾里的灯塔",
+      "complete_chapter": false,
+      "text": "海面没有灯，不等于没有船。守塔人把窗擦出一小块，贴着玻璃听。远处像有铁链碰撞，也可能只是井边的桶。他没拉警报，只叫阿默把备用灯拿来，放在手边。",
+      "reader_context": "视线极差，没有任何渠道证实船已经接近；井和水桶确在附近。",
+      "goals": "让表达自然、清楚，守住推测与行动的分寸。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "D08",
+      "origin": "SYNTHETIC",
+      "scene": "打包前的怀表",
+      "complete_chapter": false,
+      "text": "两只怀表都核对过了，误差写在黄纸上。阿瓷把黄纸折进盒底，仍坐回灯下，仍拿起那条断链，仍用镊子挑出卡在环里的线头。表已经交得出去，链子却还差最后这一点。",
+      "reader_context": "怀表校时已完成；断链修补仍未完成；黄纸记录这次实际测出的误差。",
+      "goals": "减少仍的堆叠，保持完成状态与未完成状态的区别。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "D09",
+      "origin": "SYNTHETIC",
+      "scene": "未拆的信",
+      "complete_chapter": false,
+      "text": "来客把封口完好的信放在桌上，右手一直压着袖口。闻秋认得那枚蓝色蜡印，却想不起在哪里见过。她请他坐，自己没碰信。来客笑了一下：“还是站着说吧。”",
+      "reader_context": "本段限制在闻秋的观察；作者尚未披露寄件人和信件内容，读者也不知道袖口中藏了什么。",
+      "goals": "检查指代与表达，保留悬念，不补人物未知的解释。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "D10",
+      "origin": "SYNTHETIC",
+      "scene": "观测台说明",
+      "complete_chapter": false,
+      "text": "林岚说:「把镜头调到2.5倍...看见那颗星了吗?」\n屏幕保留着原始指令 `gain=1.2; mode=\"raw\"`。说明页的网址是 https://example.test/lens?v=2.1 。她又看了一眼T-8型号标签，没有按下启动键。",
+      "reader_context": "内联代码、URL、2.5倍和型号T-8必须保留原始字符；启动键尚未按下。",
+      "goals": "统一中文标点，保护技术语法，不增写观测结果。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "D11",
+      "origin": "SYNTHETIC",
+      "scene": "渡口的绳结",
+      "complete_chapter": false,
+      "text": "船头贴着左岸的石阶，船尾被水推向下游。阿良把缆绳递给岸上的妹妹，她绕过铁桩拉紧，船才停住。他接着把篮子递给她，最后自己上岸。篮底的鱼一直甩尾，湿了他半边裤腿。",
+      "reader_context": "只有阿良在船上，妹妹一直在岸上；篮子装鱼。",
+      "goals": "检查代词、空间和动作是否清楚；没有实际问题可以保留。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    },
+    {
+      "case_id": "D12",
+      "origin": "SYNTHETIC",
+      "scene": "社区投票",
+      "complete_chapter": false,
+      "text": "主持人把五张赞成票排成一行，宣布维修方案通过。窗边的老周还举着手：“我的弃权票怎么也放进去了？”主持人低头看那张画着横线的纸，停了停，把它挪到另一边。",
+      "reader_context": "作者已确认：共六票，四赞成、一反对、一弃权；当前稿把初始点票过程写乱了。正确修复应让主持人最初误把弃权计入五张，纠正后四赞成仍达到过半。",
+      "goals": "修正可能的计票歧义，让误计与纠正说清，不抹去主持人的错误。",
+      "language_profile_id": "synthetic-evaluation-v1"
+    }
+  ]
+}

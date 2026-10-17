@@ -1,0 +1,22 @@
+{
+  "id": "E01",
+  "product": "general",
+  "language": "en",
+  "mode": "academic",
+  "title": "HALO framework: inflated framing and noun stacks",
+  "request": "Edit this research passage for clarity, natural academic expression and concise organization. Preserve every substantive claim, technical distinction, degree of certainty and the scope of the findings. Do not invent evidence or add explanations unsupported by the passage. Return only the revised passage.",
+  "context": "This is a language-editing task. Treat the supplied passage as the source of claims; do not fact-check it or replace claims with your external knowledge. Repair spacing and grammar where needed.",
+  "source": "Hardware-agnostic programming with high performance portability will be the bedrock for realizing the ubiquitous adoption of emerging accelerator technologies in future heterogeneous high-performance computing (HPC) systems, which is the key to achieving the next level of HPC performance on an expanding accelerator landscape. In this paper , we present HALO 1.0, an open-ended extensible multi-agent software framework that implements a set of proposed hardware-agnostic accelerator orchestration (HALO) principles and a novel compute-centric message passing interface (C^2MPI) specification for enabling the portable and performance-optimized execution of hardware-agnostic application host codes across heterogeneous accelerator resources .",
+  "constraints": {},
+  "provenance": {
+    "kind": "verbatim_dataset_input_with_adapted_request",
+    "source": "wanyu/IteraTeR_human_sent",
+    "revision": "e22e0371dac444239b944f9293f5b491d62b73f0",
+    "split": "test",
+    "row_index_zero_based": 158,
+    "doc_id": "2011.10896",
+    "revision_depth": 2,
+    "label": "clarity",
+    "note": "Source passage byte-for-byte from the dataset; local request adds explicit preservation requirements. Not the official EditEval protocol."
+  }
+}

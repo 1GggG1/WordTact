@@ -1,0 +1,14 @@
+{
+  "evaluations": 18,
+  "all_status_ok": true,
+  "expected_candidate_and_pair_coverage": true,
+  "frozen_inputs_regenerated_identically": true,
+  "full_input_and_rubric_tool_output_flags": [],
+  "outside_path_command_flags": [],
+  "tool_types": [
+    "command_execution"
+  ],
+  "completed_tool_calls": 44,
+  "issue_quote_match_flags": [],
+  "audit_scope": "All recorded commands inspected: local input/rubric reads and one local Python ID/quote check. Full input and rubric bytes matched completed tool output for each evaluation. This is a transcript audit, not proof of operating-system isolation."
+}

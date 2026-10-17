@@ -1,0 +1,146 @@
+{
+  "gpt-6-luna|general|bare|language_quality": {
+    "win": 6,
+    "tie": 10,
+    "loss": 2,
+    "order_disagreements": 3
+  },
+  "gpt-6-luna|general|bare|usable_overall": {
+    "win": 6,
+    "tie": 10,
+    "loss": 2,
+    "order_disagreements": 3
+  },
+  "gpt-5.6-terra|general|humanizer|language_quality": {
+    "win": 1,
+    "tie": 13,
+    "loss": 4,
+    "order_disagreements": 5
+  },
+  "gpt-5.6-terra|general|humanizer|usable_overall": {
+    "win": 3,
+    "tie": 13,
+    "loss": 2,
+    "order_disagreements": 5
+  },
+  "gpt-5.6-terra|general|original|language_quality": {
+    "win": 18,
+    "tie": 0,
+    "loss": 0,
+    "order_disagreements": 0
+  },
+  "gpt-5.6-terra|general|original|usable_overall": {
+    "win": 17,
+    "tie": 1,
+    "loss": 0,
+    "order_disagreements": 1
+  },
+  "gpt-6-luna|general|original|language_quality": {
+    "win": 18,
+    "tie": 0,
+    "loss": 0,
+    "order_disagreements": 0
+  },
+  "gpt-6-luna|general|original|usable_overall": {
+    "win": 18,
+    "tie": 0,
+    "loss": 0,
+    "order_disagreements": 0
+  },
+  "gpt-5.6-terra|general|bare|language_quality": {
+    "win": 7,
+    "tie": 11,
+    "loss": 0,
+    "order_disagreements": 3
+  },
+  "gpt-5.6-terra|general|bare|usable_overall": {
+    "win": 7,
+    "tie": 10,
+    "loss": 1,
+    "order_disagreements": 5
+  },
+  "gpt-6-luna|general|humanizer|language_quality": {
+    "win": 5,
+    "tie": 10,
+    "loss": 3,
+    "order_disagreements": 2
+  },
+  "gpt-6-luna|general|humanizer|usable_overall": {
+    "win": 6,
+    "tie": 8,
+    "loss": 4,
+    "order_disagreements": 1
+  },
+  "gpt-5.6-terra|novel|bare|language_quality": {
+    "win": 3,
+    "tie": 6,
+    "loss": 0,
+    "order_disagreements": 2
+  },
+  "gpt-5.6-terra|novel|bare|usable_overall": {
+    "win": 3,
+    "tie": 2,
+    "loss": 4,
+    "order_disagreements": 1
+  },
+  "gpt-6-luna|novel|bare|language_quality": {
+    "win": 1,
+    "tie": 6,
+    "loss": 2,
+    "order_disagreements": 3
+  },
+  "gpt-6-luna|novel|bare|usable_overall": {
+    "win": 1,
+    "tie": 5,
+    "loss": 3,
+    "order_disagreements": 3
+  },
+  "gpt-5.6-terra|novel|original|language_quality": {
+    "win": 6,
+    "tie": 0,
+    "loss": 0,
+    "order_disagreements": 0
+  },
+  "gpt-5.6-terra|novel|original|usable_overall": {
+    "win": 4,
+    "tie": 0,
+    "loss": 2,
+    "order_disagreements": 0
+  },
+  "gpt-6-luna|novel|original|language_quality": {
+    "win": 6,
+    "tie": 0,
+    "loss": 0,
+    "order_disagreements": 0
+  },
+  "gpt-6-luna|novel|original|usable_overall": {
+    "win": 5,
+    "tie": 0,
+    "loss": 1,
+    "order_disagreements": 0
+  },
+  "gpt-5.6-terra|novel|humanizer|language_quality": {
+    "win": 2,
+    "tie": 4,
+    "loss": 0,
+    "order_disagreements": 1
+  },
+  "gpt-5.6-terra|novel|humanizer|usable_overall": {
+    "win": 1,
+    "tie": 3,
+    "loss": 2,
+    "order_disagreements": 1
+  },
+  "gpt-6-luna|novel|humanizer|language_quality": {
+    "win": 3,
+    "tie": 3,
+    "loss": 0,
+    "order_disagreements": 1
+  },
+  "gpt-6-luna|novel|humanizer|usable_overall": {
+    "win": 3,
+    "tie": 2,
+    "loss": 1,
+    "order_disagreements": 0
+  }
+}

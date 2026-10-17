@@ -1,0 +1,118 @@
+[
+  {
+    "case_id": "C01",
+    "candidate_ids": [
+      "T015ccbf1e83c",
+      "Tbfba687a67f0"
+    ],
+    "kind": "debatable_minor_reading",
+    "note": "One ordering flags changing sensor provenance into observation location; the other does not. The wording distinction exists, but the warehouse-monitoring context makes a local inference plausible. Report as a disputed minor interpretation, not a confirmed change to the experimental result. Preserve all original judgments and pair outcomes."
+  },
+  {
+    "case_id": "C01",
+    "candidate_ids": [
+      "T23f0b3655736"
+    ],
+    "kind": "consistent_minor_condition_omission",
+    "note": "Both orderings flag omission of the explicit same-calibration-basis qualifier. It is a localized condition-preservation concern; do not inflate it into an invented numerical result or major factual failure."
+  },
+  {
+    "case_id": "C03",
+    "candidate_ids": [
+      "T10569f635b9d",
+      "T7d890223a067",
+      "Tcda9637610c3"
+    ],
+    "kind": "consistent_context_condition_omissions",
+    "note": "Both orderings identify omitted change-of-scope approval conditions. Distinguish the current prohibition on borrowing from the separate requirement to obtain approval for a later borrowing change; preserving only the prohibition does not reproduce the full supplied rule. Original judgments remain unchanged."
+  },
+  {
+    "case_id": "E01",
+    "candidate_ids": [
+      "Tb6d3de068630"
+    ],
+    "kind": "technical_wording_change",
+    "note": "The candidate changes the opening premise from high performance portability to high-performance hardware-agnostic programming. The later framework capability sentence remains. Describe the localized lost distinction, not wholesale deletion of framework capabilities; retain the evaluator severity as its judgment."
+  },
+  {
+    "case_id": "E01",
+    "candidate_ids": [
+      "T5a49ac1be96d",
+      "T1cbeba2fd51c",
+      "Tb6d3de068630",
+      "T2b2b21d7e688"
+    ],
+    "kind": "strict_minor_interpretations",
+    "note": "Hyphen attachment and ubiquitous versus widespread are strict minor readings, with room for editorial disagreement in a promotional research introduction. Do not convert these flags into a proven factual-error rate or silently adjust original scores."
+  },
+  {
+    "case_id": "E01",
+    "candidate_ids": [
+      "T1c875f1286b9",
+      "T17f40aa4f6e4"
+    ],
+    "kind": "ambiguous_original_attachment",
+    "note": "Only the reverse evaluation flags the antecedent of which. The original clause has more than one plausible attachment; the evaluator itself says one reading is more natural. Treat this as disputed minor interpretation, not a uniquely established factual error, and retain raw scores."
+  },
+  {
+    "case_id": "E02",
+    "candidate_ids": [
+      "Tdc849abbd3de",
+      "Tdc41b5af4ecc"
+    ],
+    "kind": "local_rubric_stricter_than_human_reference",
+    "note": "Both evaluations flag removing well from correlate well. The upstream human after_sent also asks whether the metrics correlate without well. This is a strict local preservation judgment, not an objective error label or the official EditEval criterion. Keep the raw judgments and disclose this difference."
+  },
+  {
+    "case_id": "E03",
+    "candidate_ids": [
+      "T943dd27d4cc9",
+      "T806ae8d7861e"
+    ],
+    "kind": "minor_modifier_precision",
+    "note": "Removing content from content layout is flagged as reduced precision. The surrounding summarization context may still support a content reading; do not describe this minor ambiguity as a demonstrated switch to typography or a major technical error."
+  },
+  {
+    "case_id": "F01",
+    "candidate_ids": [
+      "T9ce2d3fd1c53"
+    ],
+    "kind": "consistent_local_setting_error",
+    "note": "Both evaluations flag sea-surface wind in a river-island station scene. The candidate gives no estuary or marine-observation explanation. Preserve the minor label; this is a local setting mismatch, not evidence that character voices were flattened."
+  },
+  {
+    "case_id": "F01",
+    "candidate_ids": [
+      "Tfbe11d16c295"
+    ],
+    "kind": "calendar_checked_after_judging",
+    "note": "Both evaluations flag the letter of 12 January 1999 being called a late-twelfth-lunar-month letter in the reply dated 5 February. The Hong Kong Observatory calendar shows 12 January as lunar month 11 day 25, and 5 February as lunar month 12 day 20. The independent calendar check was done after both judgments and was not supplied to either evaluator. No original scores changed.",
+    "source_url": "https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1999.pdf"
+  },
+  {
+    "case_id": "F02",
+    "candidate_ids": [
+      "T9919c63247c1"
+    ],
+    "kind": "strict_local_physical_state_reading",
+    "note": "Both evaluations read the new 卡在 as a wedged stool-leg state rather than the original leg resting on the gutter edge. This is a strict localized lexical reading; it is not a lost event, a repaired nut, or flattened character voices. Keep the minor judgment and original preferences without exaggerating severity."
+  },
+  {
+    "case_id": "F03",
+    "candidate_ids": [
+      "Tdfe98379b099",
+      "T7d961973d8d8",
+      "Te0768693f89b"
+    ],
+    "kind": "localized_path_preservation",
+    "note": "Both evaluations distinguish moving along the west end from moving toward the west end or westward along the table edge. The local path qualifier changes under this exact-preservation request. Other object assignments and the south-door escape remain; do not describe these minor flags as a wholly incoherent action scene."
+  },
+  {
+    "case_id": "F03",
+    "candidate_ids": [
+      "T17464fcc21c2"
+    ],
+    "kind": "explicit_simultaneity_changed",
+    "note": "Both evaluations flag 同时 becoming 随即, which changes the specified simultaneous withdrawal and bag throw into sequential actions. The rest of the scene remains. Keep the local minor finding separate from language-quality scores."
+  }
+]

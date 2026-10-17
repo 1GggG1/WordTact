@@ -1,0 +1,3002 @@
+{
+  "P6a092d17afcc": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T9684f7ae7c1d",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P5fb011f705ac": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T5c800717811b",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pd227f30f7685": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T3e20180676b5",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P3074fac893fe": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T865e43f38b03",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pf47ec055d2ea": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T3e20180676b5",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P24e6d8dec2a5": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "Ta46e80651590",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pdaa78a7a5bf4": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T865e43f38b03",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pcab8ef7a017c": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T5c800717811b",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pb15e6afbe8fe": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T84d0060e7f66",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pd0774dfa56f4": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "Ta46e80651590",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P472211c8ba8d": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T9684f7ae7c1d",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P6c0925391199": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T9684f7ae7c1d",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pcc104925bbd0": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T84d0060e7f66",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P86631f1a1368": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T5c800717811b",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P171ab4a4d686": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T3e20180676b5",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P8c0fdc9e2fb3": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T84d0060e7f66",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "loss",
+    "usable_overall": "loss"
+  },
+  "P8979d17fb016": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T865e43f38b03",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P96d16f0b0f1f": {
+    "model": "gpt-6-luna",
+    "case_id": "C01",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "Ta46e80651590",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pe2f596b11c55": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T275b21d30b81",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pc96769c70060": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T275b21d30b81",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pd661e5e38d65": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T9e7b3d35fdf3",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P144980efc67e": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T0556bdabfaa7",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pac9590647306": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Ta43302f2147a",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pa2b88fd91953": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T9e7b3d35fdf3",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pa119d9f91988": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T080d90744b2d",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pce86f2dfa023": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T9e7b3d35fdf3",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P237d8b64e10c": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "Ta43302f2147a",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pc6165c922be2": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "Tac9ec5079b29",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P50c475c9f093": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Tac9ec5079b29",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pf7dcae418469": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T0556bdabfaa7",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P65e08b39ddfa": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Ta43302f2147a",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P90dbb9cde1e3": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Tac9ec5079b29",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pedc9ab2a9114": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T0556bdabfaa7",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pd605a2e421c6": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T080d90744b2d",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P9a6fb32043a7": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T080d90744b2d",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pdb7bafc7b082": {
+    "model": "gpt-6-luna",
+    "case_id": "C02",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T275b21d30b81",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pa2be60c4d76d": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "Taf1fab4f5cc2",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "win"
+  },
+  "P5377197eb1a1": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T9656e7da8c15",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pf608a0428daa": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T81f52c3e7ca1",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P6cb6515366c5": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T9656e7da8c15",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Peabb7426e045": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T81f52c3e7ca1",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P92c177977bf0": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T7d890223a067",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pc8ec8c7b21a3": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T7d890223a067",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "loss",
+    "usable_overall": "loss"
+  },
+  "P1a771a28b759": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T85d7a2afdb3e",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P0e7ad12a9ca2": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Tde070b5e4c1e",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P0d3685e74c07": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T85d7a2afdb3e",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "loss",
+    "usable_overall": "loss"
+  },
+  "Pf27dafc6ba7b": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T85d7a2afdb3e",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "loss",
+    "usable_overall": "loss"
+  },
+  "P5be82b1d56e9": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T9656e7da8c15",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pb13ea1886426": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "Tde070b5e4c1e",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P00bca6f73ced": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "Taf1fab4f5cc2",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pbeec581e2353": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Tde070b5e4c1e",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pa394351878e0": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T7d890223a067",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "loss"
+  },
+  "P9be93caad5b9": {
+    "model": "gpt-6-luna",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T81f52c3e7ca1",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pd8d54ef8f72d": {
+    "model": "gpt-5.6-terra",
+    "case_id": "C03",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "Taf1fab4f5cc2",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P732bf5eec1d2": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T81e61bf09a9b",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P4ba7c2c2ca0f": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Td1922d4eda4e",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pe24dc927d322": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T1cbeba2fd51c",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "loss",
+    "usable_overall": "loss"
+  },
+  "Pd69f8304bca8": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T81e61bf09a9b",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P974c850aa735": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T771119bc3e70",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P6415f5c1ff41": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T17f40aa4f6e4",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "tie"
+  },
+  "P8bceb678c053": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T771119bc3e70",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pcff5dcab02dd": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T17f40aa4f6e4",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "loss",
+    "usable_overall": "tie"
+  },
+  "P2dbeadbdd626": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T5314f8f7382b",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pb10773d8514e": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T5314f8f7382b",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P5b3f1a8a0464": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T81e61bf09a9b",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pe911b5c8bfc5": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T771119bc3e70",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pc57605b79540": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "Td1922d4eda4e",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P83b9ec58e52e": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T1cbeba2fd51c",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pce63ebe1d1c8": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T1cbeba2fd51c",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P391373cca275": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T5314f8f7382b",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pb66687f10fd7": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T17f40aa4f6e4",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "loss"
+  },
+  "P31efffd15d73": {
+    "model": "gpt-6-luna",
+    "case_id": "E01",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Td1922d4eda4e",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P22cdd842ed17": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T22a8239612d6",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P0464e53bce4d": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T7a9403ab952b",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P535a48d02429": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T22a8239612d6",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P9d9ab266d0cd": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T457a2be5576b",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "win"
+  },
+  "Pf792d79ee0f2": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T457a2be5576b",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P5033f4d4df03": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "Tb06e0c3d24b9",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pdd53022fdd20": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T1819afa1cbfc",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pc8651e66682f": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T1fd0c4a64be2",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P03a82ca6d5b9": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T457a2be5576b",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pf1d367595ebd": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T1819afa1cbfc",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pafe4c1dc036a": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T1fd0c4a64be2",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P6aed880af0f6": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T1fd0c4a64be2",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P3c038fd05872": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T7a9403ab952b",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "win"
+  },
+  "P314228866f05": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "Tb06e0c3d24b9",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P2f03c1b2373d": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T7a9403ab952b",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P1d59ec8497e4": {
+    "model": "gpt-6-luna",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T22a8239612d6",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "loss",
+    "usable_overall": "loss"
+  },
+  "P94573b9f6cc7": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "Tb06e0c3d24b9",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pa3201fcd3f10": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E02",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "T1819afa1cbfc",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P15dc47215459": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Tdf7129f7f170",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P68ebdbcb1db6": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "Tccba910ffe67",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P94ac0e289757": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "Tdf7129f7f170",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P7baab75d5153": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "Tecba62b4e27e",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P7f207d0c6c72": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T166fce36723e",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P706fab478a2c": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 2,
+    "control": "original",
+    "target": "T166fce36723e",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P97cbf8671f5d": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 1,
+    "control": "bare",
+    "target": "Tec54762b682e",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P10dbb09f92cf": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 2,
+    "control": "bare",
+    "target": "Tecba62b4e27e",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P800e36dcb7b9": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 3,
+    "control": "original",
+    "target": "T0fee8f321583",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P439e1c094566": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "Tecba62b4e27e",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P56f28b956b79": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T166fce36723e",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P8799d52feb85": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Tdf7129f7f170",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P33fd7078f32e": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "Tec54762b682e",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "loss",
+    "usable_overall": "tie"
+  },
+  "Pf08272fd1f01": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "Tccba910ffe67",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P7f54d1ef2d9e": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T0fee8f321583",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "loss",
+    "usable_overall": "loss"
+  },
+  "Pa5ef8b8267f5": {
+    "model": "gpt-5.6-terra",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "Tec54762b682e",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P3d156875fc3a": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T0fee8f321583",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pf3a6554e6403": {
+    "model": "gpt-6-luna",
+    "case_id": "E03",
+    "product": "general",
+    "repeat": 1,
+    "control": "original",
+    "target": "Tccba910ffe67",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pf7db1b71fd95": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F01",
+    "product": "novel",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T4b539c3e1c20",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P04dd1311c9e4": {
+    "model": "gpt-6-luna",
+    "case_id": "F01",
+    "product": "novel",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T29ec9b80856f",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pc39c48993332": {
+    "model": "gpt-6-luna",
+    "case_id": "F01",
+    "product": "novel",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T14092a516d7c",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "loss",
+    "usable_overall": "loss"
+  },
+  "P942bc57d3cc4": {
+    "model": "gpt-6-luna",
+    "case_id": "F01",
+    "product": "novel",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Tca99ce790ab2",
+    "orders": {
+      "forward": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "loss",
+    "usable_overall": "loss"
+  },
+  "P3bbb585453f0": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F01",
+    "product": "novel",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T9ce2d3fd1c53",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "loss"
+  },
+  "P5b7e6ecccda9": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F01",
+    "product": "novel",
+    "repeat": 2,
+    "control": "bare",
+    "target": "Tfbe11d16c295",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "loss"
+  },
+  "Pf60157a5565f": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 3,
+    "control": "original",
+    "target": "T079a7c1c7766",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P486fa2cd7d1d": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 2,
+    "control": "original",
+    "target": "T035c33fe8bf2",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P2cd8ec67cfd2": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 2,
+    "control": "original",
+    "target": "T5a2a57212c86",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pee9a278ea079": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T035c33fe8bf2",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pcc947afc2122": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Tbea69879b733",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P8cd794ff1eeb": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T5a2a57212c86",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pff8da431130b": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "T9919c63247c1",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "loss"
+  },
+  "Pd2e59f786f0e": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T079a7c1c7766",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P659733bdf0b0": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T5a2a57212c86",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pdea7d2db5b7c": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T035c33fe8bf2",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P1f41a91df2a5": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 1,
+    "control": "bare",
+    "target": "T9919c63247c1",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "loss"
+  },
+  "P3e0654c6b1a2": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 1,
+    "control": "bare",
+    "target": "Td57be7fa6fc5",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "P30498b5d3e5d": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "Td57be7fa6fc5",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pd903ee3787d2": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 3,
+    "control": "original",
+    "target": "Tbea69879b733",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pdd409f054c28": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T079a7c1c7766",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pedca924dadd6": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 1,
+    "control": "original",
+    "target": "Td57be7fa6fc5",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P62389b3a8f9b": {
+    "model": "gpt-6-luna",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Tbea69879b733",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pd6e1eb3854da": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F02",
+    "product": "novel",
+    "repeat": 1,
+    "control": "original",
+    "target": "T9919c63247c1",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "loss"
+  },
+  "Pc3ffe5000e44": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 3,
+    "control": "bare",
+    "target": "Tba444f356bfb",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pb200d8922b27": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 3,
+    "control": "original",
+    "target": "Tba444f356bfb",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pc8db663f405e": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 2,
+    "control": "bare",
+    "target": "T7d961973d8d8",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "loss"
+  },
+  "P4c8d37232605": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "T5df4aca9ab25",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  },
+  "Pdc7f58311505": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 2,
+    "control": "bare",
+    "target": "Ted6d4d71d199",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "tie",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "win"
+  },
+  "Pe3460ecd5b86": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 1,
+    "control": "original",
+    "target": "Taeeeaa3b31dc",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P097f504a9d19": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 1,
+    "control": "original",
+    "target": "Tdfe98379b099",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "loss"
+  },
+  "P317515d9e6f3": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 3,
+    "control": "humanizer",
+    "target": "Tba444f356bfb",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P26adafb6c816": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 3,
+    "control": "original",
+    "target": "T5df4aca9ab25",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pa57f8e6f330d": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 2,
+    "control": "original",
+    "target": "Ted6d4d71d199",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "Pb8f8dc4de11c": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "Taeeeaa3b31dc",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P29b6ac020b5b": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 1,
+    "control": "humanizer",
+    "target": "Tdfe98379b099",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "loss"
+  },
+  "Pd1cd6a993ad5": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 1,
+    "control": "bare",
+    "target": "Taeeeaa3b31dc",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P92e8a46213d8": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 2,
+    "control": "original",
+    "target": "T7d961973d8d8",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "loss"
+  },
+  "Pb1cd16911471": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "Ted6d4d71d199",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "win"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "win"
+  },
+  "P991ec2d9c68c": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 1,
+    "control": "bare",
+    "target": "Tdfe98379b099",
+    "orders": {
+      "forward": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "win",
+    "usable_overall": "loss"
+  },
+  "Pcdb8bcb5d576": {
+    "model": "gpt-6-luna",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 2,
+    "control": "humanizer",
+    "target": "T7d961973d8d8",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "loss"
+      },
+      "reverse": {
+        "language_quality": "win",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "loss"
+  },
+  "P57f3fd8d93ca": {
+    "model": "gpt-5.6-terra",
+    "case_id": "F03",
+    "product": "novel",
+    "repeat": 3,
+    "control": "bare",
+    "target": "T5df4aca9ab25",
+    "orders": {
+      "forward": {
+        "language_quality": "tie",
+        "usable_overall": "tie"
+      },
+      "reverse": {
+        "language_quality": "loss",
+        "usable_overall": "loss"
+      }
+    },
+    "language_quality": "tie",
+    "usable_overall": "tie"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "E02",
+  "product": "general",
+  "language": "en",
+  "mode": "academic",
+  "title": "Bias metrics: scope of a negative finding",
+  "request": "Edit this research passage for clarity, natural academic expression and concise organization. Preserve every substantive claim, technical distinction, degree of certainty and the scope of the findings. Do not invent evidence or add explanations unsupported by the passage. Return only the revised passage.",
+  "context": "This is a language-editing task. Treat the supplied passage as the source of claims; do not fact-check it or replace claims with your external knowledge. Repair spacing and grammar where needed.",
+  "source": " To address and combat this , the NLP community relies on a variety of metrics to identify and quantify bias in black-box modelsand to guide efforts at debiasing . Some of these metrics are intrinsic, and are measured in word embedding spaces, and some are extrinsic, which measure the bias present downstream in the tasks that the word embeddings are plugged into. This research examines whether easy-to-measure intrinsic metrics correlate well to real world extrinsic metrics . We measure both intrinsic and extrinsic bias across hundreds of trained models covering different tasks and experimental conditions and find that there is no reliable correlation between these metrics that holds in all scenarios across tasks and languages.",
+  "constraints": {},
+  "provenance": {
+    "kind": "verbatim_dataset_input_with_adapted_request",
+    "source": "wanyu/IteraTeR_human_sent",
+    "revision": "e22e0371dac444239b944f9293f5b491d62b73f0",
+    "split": "test",
+    "row_index_zero_based": 174,
+    "doc_id": "2012.15859",
+    "revision_depth": 2,
+    "label": "clarity",
+    "note": "Source passage byte-for-byte from the dataset; local request adds explicit preservation requirements. Not the official EditEval protocol."
+  }
+}
