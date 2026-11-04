@@ -2,24 +2,39 @@
 
 [English — WordTact](README.en.md)
 
-两个可以独立使用的写作 skills：中文小说完整版 **章回（Zhanghui）**，以及中英文
+两个可以独立安装的版本：中文小说完整版 **章回（Zhanghui）**，以及中英文
 通用润色工具 **WordTact**。
 
 | 版本 | 用来做什么 | 语言 | 入口 |
 |---|---|---|---|
 | 章回（Zhanghui） | 小说构思、规划、扩写、审稿，以及长期文风和设定管理 | 中文 | [novel/](novel/README.md) |
-| WordTact | 修改套路化表达、定语堆叠和从句嵌套，统一措辞，润色一般文本与论文 | 中文、英文 | [general/](general/README.md) |
+| WordTact 通用版 | 文本与论文润色；日常用户与 AI 对话 | 中文、英文 | [general/](general/README.md) |
 
 小说版根据作者要求、认可的样稿和具体场景保持文风。正式汇报、私下对白和日记可以
 各有口吻，不把人物都改成同一种声音。通用版直接处理已有文本，无需小说项目或
 Python；论文会额外检查术语、引用、数量关系和结论强度。
+
+## 2026-11-04 更新与下载
+
+通用版新增独立的 `conversational-register`，与 `wordtact` 平级安装，分别负责日常
+AI 对话与文本润色。小说版新增 `novel-conversation` 和 `novel-dialogue`，分别处理
+作者协作沟通与人物对白，已接入讨论、规划、扩写和审稿流程。
+
+- [下载 WordTact 通用版](https://github.com/1GggG1/WordTact/releases/download/2026-11-04/wordtact-general-20261104.zip)：包含两项技能和可选安装器，见[安装说明](general/INSTALL.md)。
+- [下载章回小说版](https://github.com/1GggG1/WordTact/releases/download/2026-11-04/novel-superpower-full-20261104.zip)：保留完整小说工作流，见[使用说明](novel/README.md)。
+- [本次发布说明与校验文件](https://github.com/1GggG1/WordTact/releases/tag/2026-11-04)。
 
 ## 怎么用
 
 将对应目录放入你使用的 agent 工具所支持的技能目录：
 
 - 章回：复制整个 `novel/`，技能 ID 沿用 `novel-superpower`，安装目录可同名。
-- 通用版 WordTact：复制整个 `general/wordtact/`。
+- 通用版 WordTact：使用 [通用版安装器](general/INSTALL.md)，将 `wordtact` 与
+  `conversational-register` 安装为两项平级技能。
+
+小说版分别提供作者协作沟通与人物对白指导。通用版 `general/` 内并列放置
+`wordtact/` 与 `conversational-register/`，分别负责文本润色和日常用户与 AI 对话。
+通用版统一打包和安装这两项技能；普通使用不会触发部署。
 
 保留目录结构和随附的许可文件，不要只复制 `SKILL.md`。也可以直接让 agent 读取入口：
 
@@ -27,7 +42,7 @@ Python；论文会额外检查术语、引用、数量关系和结论强度。
 
 > 使用 general/wordtact/SKILL.md 润色这段论文，保留术语、引用和不确定性。
 
-通用版会先询问是否加一位独立评阅者，默认开启；不需要时回复“不开”，或在请求中
+通用版的润色技能会先询问是否加一位独立评阅者，默认开启；不需要时回复“不开”，或在请求中
 写明“只由主 agent 完成”。
 
 ## 为什么做这个
@@ -89,6 +104,8 @@ python3 novel/scripts/validate_source_package.py --skip-archive
 ```
 
 小说版的源码包由 `novel/scripts/build_source_package.py` 构建，默认按当天日期命名。
+通用版由 `general/scripts/build_package.py --output <外部路径.zip>` 构建，包含两项技能、
+安装器、安装说明和文件哈希。对话规则以 `general/conversational-register/SKILL.md` 为准。
 `general/` 是通用版，`novel/` 是中文小说版，`benchmarks/nine-case/` 保存公开测试和结果。
 各版的 `tests/` 及小说版的 `design/` 契约文档用于开发，无需加载到写作上下文。
 

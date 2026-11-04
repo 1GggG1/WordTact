@@ -210,6 +210,9 @@ scene_card:
 策略变化。答非所问、附加条件、沉默和错误答案都可以构成拒绝。非对话主导场景留空，
 不能为填 schema 强行制造争论。
 
+需要设计具体言语互动时，使用 [novel-dialogue](../../novel-dialogue/SKILL.md) 的场合、
+意图和回应判断；它不增加 `scene_card` 字段，也不把所有场景变成语言争夺。
+
 ### 4.11 `pov` 与 `turn.embodied_by`
 
 `narrator`、`narratee`、`form` 只在非默认文体填写；它们必须与 `narrative_distance`、

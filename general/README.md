@@ -1,4 +1,4 @@
-# WordTact：中英文通用润色
+# WordTact 通用版：文本润色与日常对话
 
 [English](../README.en.md) · [章回与 WordTact](../README.md)
 
@@ -7,9 +7,27 @@
 
 ## 使用
 
-复制整个 [wordtact/](wordtact/SKILL.md) 目录，放入你的 agent 工具支持的技能
-目录即可。保留其中的 `SKILL.md`、`references/`、`LICENSE` 和 `THIRD_PARTY_NOTICES.md`。
-无需小说项目或 Python，也可以直接指定入口：
+`general/` 通用版内有两项并列技能：
+
+| 目录 | 用途 |
+|---|---|
+| [wordtact/](wordtact/SKILL.md) | 编辑已有中英文文本与论文，保留含义和作者文风 |
+| [conversational-register/](conversational-register/SKILL.md) | 日常用户与 AI 对话，包括解释、讨论和任务反馈 |
+
+它们与 `novel/` 小说版分开维护和分发。将这两个目录一起复制到客户端技能目录，或在
+仓库根目录运行通用版安装器：
+
+```sh
+python3 general/install.py --dest /path/to/client/skills
+```
+
+安装后仍是两个平级目录，不将对话技能嵌入润色技能，也不套用到论文、小说正文或人物
+台词。安装器只需 Python 3.10+ 标准库，不联网，不修改客户端配置。相同内容直接复用；
+不同版本先报告冲突，明确更新时加 `--replace` 并保留备份。完整用法见 [INSTALL.md](INSTALL.md)。
+
+只复制 `wordtact/` 也能润色且无需 Python；它带有从对话技能生成的交流指导回退。
+要让对话技能在日常交流中独立发现，需要同时安装 `conversational-register/`。
+普通润色和日常对话不会自行执行安装。
 
 > 用 general/wordtact/SKILL.md 润色这段中文论文，保留专业术语、引用和结论强度。
 
@@ -45,6 +63,7 @@ max、标准速度，每题三次，由 Astra 评阅。以下为综合可用性�
 ```sh
 python3 -m unittest discover -s general/tests
 python3 -m unittest discover -s novel/tests
+python3 general/scripts/build_package.py --output /tmp/wordtact-general-YYYYMMDD.zip
 ```
 
 `tests/` 是开发材料，无需随技能复制。本版采用 [MIT 许可](wordtact/LICENSE)。部分表达检查参考并改编自

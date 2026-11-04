@@ -5,6 +5,8 @@
 
 | 子技能 | 用途 |
 |---|---|
+| [novel-conversation](user/novel-conversation/SKILL.md) | 创作过程中 AI 与作者的沟通，随写作工作流自动加载 |
+| [novel-dialogue](user/novel-dialogue/SKILL.md) | 人物台词、言语互动与场景中的声音差异，写作和审稿时按需加载 |
 | [novel-discuss](user/novel-discuss/SKILL.md) | 讨论方向、构思和质疑方案，形成交接材料 |
 | [novel-ci](user/novel-ci/SKILL.md) | 场景规划、草稿、审阅、补丁、回归检查和正典更新 |
 | [novel-expander](user/novel-expander/SKILL.md) | 将大纲、人物与世界观笔记、片段扩成正文 |
@@ -15,6 +17,10 @@
 文风依据作者要求、认可的样稿和具体场景。正式汇报、私下对白和日记可以有不同口吻，
 人物的习惯、笑话和有意重复也应保留。语言审校会处理定语堆叠、指代不清、套路化
 表达等问题，同时检查有没有改动原意、人物动机和知情范围。
+
+作者沟通、人物对白和小说叙述分别处理：讨论方案与解释反馈使用作者沟通指导；实际
+台词使用人物对白指导；叙述仍按作者要求、视角和场景选择文风。短对白请求可以直接
+使用 novel-dialogue，无需初始化完整项目。
 
 本版只面向中文小说。一般文本与中英文论文使用同仓库 `general/` 下的 WordTact。
 

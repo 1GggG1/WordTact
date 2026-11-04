@@ -7,6 +7,10 @@
 
 ---
 
+For character speech, read [novel-dialogue](../../novel-dialogue/SKILL.md). Use its situated
+voice and interaction checks within this cluster; keep information failures in the information
+module and preserve the existing severity and review contracts.
+
 ## Module 1: general_character_tests（所有出场角色通用）
 
 ### Purpose

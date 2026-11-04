@@ -5,6 +5,10 @@ description: "Review or revise Chinese fiction for language habits, punctuation,
 
 # Novel Auditor
 
+For replies to the author during this fiction task, load
+[novel-conversation](../novel-conversation/SKILL.md). It guides only your communication;
+keep manuscript prose, structured records and this workflow's checks under their own rules.
+
 Preserve author intent while resolving concrete reading problems. Existing prose is the starting
 point, not an invitation to rewrite the author's voice. Identify the request as diagnosis,
 authorized revision, or broader reconstruction from context; do not ask again when authorization
@@ -56,6 +60,9 @@ revision. Module selection never removes their required evidence or editing safe
    [style consistency](references/style-consistency.md). For reading-load review or concrete
    sentence-comprehension obstacles, read [Chinese reading load](references/reading-load-zh.md).
    Keep these within the selected task; no corpus or scene card is required.
+7. When the selected review covers character speech, load
+   [novel-dialogue](../novel-dialogue/SKILL.md) for situated voice, turn-taking and subtext.
+   Keep findings in the existing review; this adds no separate review panel or pipeline.
 
 ## Decision rules
 

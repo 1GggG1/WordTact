@@ -5,6 +5,10 @@ description: "Expand rough outlines, character/world notes, and fragments into n
 
 # Novel Expander
 
+For replies to the author during this fiction task, load
+[novel-conversation](../novel-conversation/SKILL.md). It guides only your communication;
+keep manuscript prose, structured records and this workflow's checks under their own rules.
+
 Turn story intent into readable narrative action, discovery, response and character experience.
 Do not optimize for imitating human imperfection. Preserve the project's voice and factual bounds
 while controlling language habits, repetition and punctuation.
@@ -39,7 +43,9 @@ to fill a form. A consequential missing creative choice is the reason to ask one
 
 Read `references/anti-ai-patterns.md` before every expansion. It is the single canonical source for
 language habits and the punctuation set. Read relevant modules of `references/narrative-craft.md`
-for action chains, foreground vs summary, dialogue strategy, POV, detail and object function.
+for action chains, foreground vs summary, POV, detail and object function. When the scene
+contains character speech, load [novel-dialogue](../novel-dialogue/SKILL.md) for voice,
+turn-taking and dialogue strategy; it uses this invocation's existing review stage.
 
 Scene-card constraints and effective project decisions govern default style. With no supplied
 style, use limited third person and a readable web-novel register; do not impose this on existing
@@ -113,6 +119,7 @@ metadata, not inside prose. Full manuscript acceptance is not claimed for a sket
 
 - `references/anti-ai-patterns.md`: canonical language rules, required.
 - `references/narrative-craft.md`: conditional presentation modules, required as relevant.
+- Sibling `../novel-dialogue/SKILL.md`: character speech and dialogue craft, when applicable.
 - `references/style-guide.md`: adjustable defaults.
 - `references/expansion-workflow.md`: longer works.
 - Sibling ci `references/project-context.md`, `reader-index.md`, `revision-tools.md` and

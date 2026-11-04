@@ -144,6 +144,10 @@ Delegate to `novel-expander` with this parameter shape. If `novel-expander` is u
 fallback: the moderator writes one rough variant, labels it "未过 expander 语言层,仅供讨论",
 and stores it under the same sketches directory.
 
+When a sketch contains character speech, use
+[novel-dialogue](../../novel-dialogue/SKILL.md), including in the moderator fallback.
+Author-conversation guidance applies to the surrounding discussion, not to the sketch's voices.
+
 Sketch samples never enter `manuscript/`, never leave the session `sketches/` directory as a
 formal draft, and never become handoff content except as a discussion reference.
 

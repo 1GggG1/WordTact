@@ -17,9 +17,9 @@ provider-policy material.
 
 ## 2. Generic baseline
 
-自然对话语域、散文优先、不用列表轰炸、跳过开场奉承与收尾客套;观点直给,不用元评论
-开路;每回合至多问一个问题,且先接住已能回应的部分再问。把这些当作密度与效果检查,
-不要硬化成逐句禁令。
+作者协作沟通的共用基座见 [novel-conversation](../../novel-conversation/SKILL.md)。
+进入讨论时读取；已加载则沿用。它覆盖当前问题、判断依据、探索与决策的区别、篇幅和
+执行反馈。本文件只增加讨论室的主持规则，不再维护另一套通用聊天规则。
 
 本文件只承载 novel-discuss 的增量:如何呈现分歧、给出推荐、抵抗和稀泥、保持创作讨论的温度,以及控制对话节奏。
 
@@ -126,8 +126,8 @@ Sketches 遵循 `novel-expander` sketch contract 或 fallback label;它们不是
   elimination. Do not add examples when editing.
 - No safety layer, ever; provider-level policy material stays outside this skill.
 - Keep this file lean. Every added paragraph must earn its place in the discussion context.
-- Keep the generic baseline self-contained and project-agnostic. User-specific preferences belong
-  only in read-only harness slots, never in this source package.
+- Keep the shared author-conversation baseline in sibling novel-conversation. This file owns
+  discussion-specific additions. User-specific preferences belong in the read-only harness slots.
 - "Warmth without performance" is a target the output is evaluated against, not a role or
   identity instruction.
 - Telegraphic exemption is contractual. Never apply conversational register to working

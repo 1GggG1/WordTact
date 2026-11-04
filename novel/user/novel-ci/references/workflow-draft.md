@@ -54,6 +54,9 @@ current applicable author decisions (resolve scope and supersession in project-c
 
 - Load relevant modules from expander's `references/narrative-craft.md`, then load
   `references/anti-ai-patterns.md` for the surface ruleset.
+- If the scene includes character speech, also load
+  [novel-dialogue](../../novel-dialogue/SKILL.md), including in the fallback path. Apply its
+  drafting guidance now and leave its verification questions to the scheduled review.
 - When expander invocation is unavailable, read its shared references directly. If unavailable too, report the missing verification; conventions.md §7 does not substitute a shortened rule copy.
 - This file maps card fields but does NOT replicate expander craft or language rule entries (D3/D11).
 

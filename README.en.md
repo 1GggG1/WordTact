@@ -10,11 +10,39 @@ and the strength of claims.
 The skill lives in [general/wordtact/](general/wordtact/SKILL.md). It works directly
 with the text you provide and does not need Python or a writing-project setup.
 
+## 2026-11-04 release
+
+The general edition now includes two independently discoverable skills: `wordtact` for
+editing and `conversational-register` for everyday user–AI conversation. The Chinese fiction
+edition adds `novel-conversation` for author collaboration and `novel-dialogue` for character
+speech, integrated into its discussion, planning, drafting and review routes.
+
+- [Download the general edition](https://github.com/1GggG1/WordTact/releases/download/2026-11-04/wordtact-general-20261104.zip): both skills and an optional installer; see [installation instructions](general/INSTALL.md).
+- [Download Zhanghui for Chinese fiction](https://github.com/1GggG1/WordTact/releases/download/2026-11-04/novel-superpower-full-20261104.zip): the full fiction workflow; see the [Chinese guide](novel/README.md).
+- [Release notes and checksums](https://github.com/1GggG1/WordTact/releases/tag/2026-11-04).
+
 ## Use it
 
-Copy the entire `general/wordtact/` directory into your agent tool's skill directory.
-Keep `SKILL.md`, `references/`, `LICENSE` and `THIRD_PARTY_NOTICES.md` together. You can also point the
-agent to the entrypoint:
+The general edition ships WordTact and an independent `conversational-register` skill for
+user–AI conversation. From the repository root, install both into your client's skill directory:
+
+```sh
+python3 general/install.py --dest /path/to/client/skills
+```
+
+The installer needs Python 3.10+ with no additional packages. It reuses identical content,
+reports conflicts before writing, and backs up different versions when updating with
+`--replace`. Use `--dry-run` to inspect or `--only conversational-register` to install just the
+conversation skill. See [installation instructions](general/INSTALL.md).
+
+The source has two sibling directories under `general/`: `wordtact/` and
+`conversational-register/`. Copy both into the client's skill directory for editing and
+independent everyday conversation. The `novel/` edition is packaged separately.
+
+Copying only `general/wordtact/` still supports editing without Python and includes a generated
+conversation fallback. Install its sibling for independent conversation-skill discovery.
+Normal use never runs the installer. Keep each skill's files and licenses together.
+You can also point to the entrypoint:
 
 > Use general/wordtact/SKILL.md to edit this paragraph for clarity. Preserve the house
 > style, every substantive claim and its attribution.
@@ -74,8 +102,12 @@ python3 -m unittest discover -s general/tests
 python3 -m unittest discover -s benchmarks/nine-case/tests
 ```
 
-The tests check packaging, resource links and the benchmark runner. The skill itself does
-not need Python.
+The tests check packaging, resource links, installer behavior and the benchmark runner.
+Editing does not need Python; the optional installer and release builder do.
+
+Build the complete general release with
+`python3 general/scripts/build_package.py --output /tmp/wordtact-general-YYYYMMDD.zip`.
+The archive contains both skills, the installer, installation notes and a SHA-256 manifest.
 
 ## License and credits
 

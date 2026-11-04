@@ -22,6 +22,8 @@ REQUIRED_SUBSKILLS = [
     "file-tagging",
     "novel-auditor",
     "novel-ci",
+    "novel-conversation",
+    "novel-dialogue",
     "novel-discuss",
     "novel-expander",
     "vault-organizer",
@@ -279,6 +281,42 @@ def check_shared_files(errors: list[str], skill_root: Path | None = None) -> Non
             errors.append(f"{skill}/SKILL.md must route applicable reference comparison")
 
 
+def check_conversation_routes(errors: list[str], skill_root: Path | None = None) -> None:
+    """Keep author communication and character speech reachable in either layout."""
+    base = skill_root if skill_root is not None else ROOT / "user"
+    consumers = {
+        "novel-conversation": [
+            "novel-ci/SKILL.md",
+            "novel-discuss/SKILL.md",
+            "novel-expander/SKILL.md",
+            "novel-auditor/SKILL.md",
+            "novel-discuss/references/register-discussion.md",
+        ],
+        "novel-dialogue": [
+            "novel-expander/SKILL.md",
+            "novel-auditor/SKILL.md",
+            "novel-ci/references/workflow-draft.md",
+            "novel-ci/references/workflow-planning.md",
+            "novel-ci/references/checks-character.md",
+            "novel-expander/references/narrative-craft.md",
+            "novel-discuss/references/workflow-session.md",
+        ],
+    }
+    for skill, paths in consumers.items():
+        target = base / skill / "SKILL.md"
+        if not target.is_file():
+            errors.append(f"missing conversation resource: {skill}/SKILL.md")
+        for relative in paths:
+            consumer = base / relative
+            if not consumer.is_file():
+                errors.append(f"missing conversation consumer: {relative}")
+                continue
+            links = re.findall(r"\[[^\]]*\]\(([^)]+)\)", consumer.read_text(encoding="utf-8"))
+            resolved = {(consumer.parent / link.split("#", 1)[0]).resolve() for link in links}
+            if target.resolve() not in resolved:
+                errors.append(f"{relative} must link to bundled {skill}/SKILL.md")
+
+
 def check_narrative_contract(errors: list[str]) -> None:
     craft = ROOT / "user" / "novel-expander" / "references" / "narrative-craft.md"
     if not craft.exists():
@@ -448,6 +486,7 @@ def main() -> int:
     check_discuss_contract(errors)
     check_generality(errors)
     check_shared_files(errors)
+    check_conversation_routes(errors)
     check_narrative_contract(errors)
     if not args.skip_archive:
         check_archive(errors, args.archive)

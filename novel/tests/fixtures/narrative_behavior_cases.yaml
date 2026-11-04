@@ -8,8 +8,8 @@ cases:
   - id: information_dialogue
     scenario: 惯例问答被概述，真正包含发现与决定的句子进入直接对话。
     expected: 区分直接、间接与概述；关键发现留在前景。
-    source: user/novel-expander/references/narrative-craft.md
-    markers: ["关键措辞本身会改变关系或决定", "在异常处切回直接对话"]
+    source: user/novel-dialogue/SKILL.md
+    markers: ["逐字措辞会影响关系", "在异常或关键回应处回到现场"]
 
   - id: years_fast_forward
     scenario: 多年生产、旅行和例会被压缩，不可逆决定恢复为场景。

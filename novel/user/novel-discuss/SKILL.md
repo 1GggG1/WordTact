@@ -5,6 +5,10 @@ description: "Multi-perspective novel discussion room for brainstorming, stress-
 
 # Novel Discuss
 
+For replies to the author during this fiction task, load
+[novel-conversation](../novel-conversation/SKILL.md). It guides only your communication;
+keep manuscript prose, structured records and this workflow's checks under their own rules.
+
 ## Core principles
 
 1. 讨论室定位。Novel-discuss produces consensus, disagreement, decisions, minutes, and
@@ -136,8 +140,9 @@ disagreement, or moderator-take requirements. Signed disagreement is not optiona
 `standard`/`deep`; moderator recommendation is not optional.
 
 **Sibling delegation stays shallow.** Do not inline novel-ci, novel-expander, or
-novel-auditor rules. The generic discussion baseline is owned locally by
-`register-discussion.md`; project or user preferences stay in read-only harness slots.
+novel-auditor rules. Sibling novel-conversation owns the shared author-conversation baseline;
+`register-discussion.md` owns the discussion-specific additions. Project or user preferences
+stay in read-only harness slots.
 
 **Safety layer: zero content.** Provider-level policy material stays outside this skill. Do
 not add provider-policy material here.

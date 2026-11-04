@@ -8,6 +8,18 @@ description: "Use when the user asks for Chinese novel-writing help across the b
 Single entry dispatcher for the novel-writing skill suite. Use this file to choose the
 right sub-skill, then load that sub-skill's `SKILL.md` and any references it requests.
 
+## Conversation and character speech
+
+For author-facing replies during a fiction task, load
+[user/novel-conversation/SKILL.md](user/novel-conversation/SKILL.md) alongside the selected
+workflow. It shapes communication without initiating a discussion room or changing the
+workflow's permissions. Manuscript passages and structured records keep their own contracts.
+
+For character speech, load [user/novel-dialogue/SKILL.md](user/novel-dialogue/SKILL.md).
+A focused request to write or revise a short exchange can use it directly; full-scene
+expansion, broader auditing and CI production retain the routes below and use it as dialogue
+guidance. Do not route an author asking a question as if they were a fictional speaker.
+
 ## Dispatch Table
 
 | User intent | Route |
@@ -28,8 +40,9 @@ right sub-skill, then load that sub-skill's `SKILL.md` and any references it req
 - If `novel-discuss` needs prose feel during discussion, delegate exploratory sketches
   to `novel-expander` and store them only under
   `agent/discuss/sessions/<session_id>/sketches/`.
-- If the user supplies finished prose and asks what is wrong with it, use
-  `novel-auditor`; if they supply notes and ask for prose, use `novel-expander`.
+- Outside the focused character-exchange route above, use `novel-auditor` for diagnosis
+  of finished prose and `novel-expander` for turning notes into prose. A narrow dialogue
+  request does not by itself start a broader audit or a scene-production pipeline.
 - Auditor first resolves the audit arrangement: a lightweight survey and a user-selected
   combination of methods, or an already established/delegated choice. Start with the project
   entry and file metadata; load auditor's planning route before other project evidence. Do not preload its

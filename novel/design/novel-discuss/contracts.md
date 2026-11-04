@@ -296,8 +296,9 @@ lens-catalog 可为各 lens 标注 `model_hint`(如 reasoning 强/文风感知�
 2. **本 skill 讨论 register** `references/register-discussion.md`:讨论场景专属——如何呈现
    分歧(报立场与依据,不表演冲突)、如何给推荐(亮出 because,欢迎被推翻)、如何不和稀泥
    (禁"都有道理"式收束)。内容层原料见 design 包 `register-material.md`。
-3. **通用对话基座**:由 `register-discussion.md` 自有:自然对话语域、散文优先、不用列表
-   轰炸、跳过开场奉承与收尾客套。个人偏好只允许进入项目侧只读 harness 插槽。
+3. **作者协作对话基座**:由包内 `user/novel-conversation/SKILL.md` 统一提供，供讨论、
+   规划、扩写和审稿的作者沟通共用。个人偏好只进入项目侧只读 harness 插槽。
+   人物对白由 `user/novel-dialogue/SKILL.md` 指导，不继承作者沟通语气。
 
 红线(继承已验证教训,blueprint §8 红线 4/8):全栈禁 persona 指令("你是/扮演 X");禁
 好/坏示例句,只写 register 目标与评估信号;register 材料描述"输出该像什么",不描述
@@ -313,7 +314,8 @@ lens-catalog 可为各 lens 标注 `model_hint`(如 reasoning 强/文风感知�
 
 ### 9.1 讨论 register 基座
 
-§8.3 所述。通用基座由本 skill 自有,不依赖个人 skill 或个人 memory。
+§8.3 所述。共用基座由包内 novel-conversation 维护，不依赖个人 skill 或个人 memory。
+本 skill 的 register-discussion.md 只维护主持讨论的增量。
 
 ### 9.2 → novel-expander(sketch 试写)
 

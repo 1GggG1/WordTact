@@ -28,7 +28,7 @@
 | D6 | 写边界 | 默认只写 `agent/discuss/`,结论以 handoff 简报移交 novel-ci;用户明确要求直改项目文件时,逐文件确认后可写(lockfile/bible 仍禁) | 讨论室不越权落正典;直改是显式例外不是常态 |
 | D7 | 扇出两变体 | explore(开放探索)/ stress(立场压测:用户带方案来,各 lens 出支持/反驳/修正) | "帮我 stress test 这个想法"是高频场景,值得一等公民 |
 | D8 | 强度三档 | light(不扇出,主持人单聊)/ standard(默认,3—4 lens)/ deep(全员+Delphi 第二轮,每 lens 限 1 条反驳) | "快速聊两句"不该惊动全委员会 |
-| D9 | register 栈 | 对话阶段:用户 harness 插槽 > 本 skill 通用讨论 register;子代理笔记电报体豁免 | register 目标而非 persona 扮演;示例句会被逆向归纳;个人偏好不进入通用包 |
+| D9 | register 栈 | 对话阶段:用户 harness 插槽 > 本 skill 讨论增量 > 包内 novel-conversation;子代理笔记电报体豁免 | register 目标而非 persona 扮演;示例句会被逆向归纳;个人偏好不进入通用包 |
 | D10 | 决议演化 | decisions.md 条目带 status(active/superseded);新决议与旧决议冲突时主持人必须指认并问旧理由是否仍成立 | 长篇项目三个月后没人记得当初为什么那样定 |
 | D11 | 试写委托 | 委托 novel-expander sketch 档(2—3 短变体);产物只存 agent/discuss/ 会话目录,**永不写 manuscript/** | 复用 sibling,零新机器;"三种开头各试一段"是写作讨论刚需 |
 | D12 | 无子代理降级 | harness 不支持并行子代理时,串行逐 lens 自问自答;独立性规则照守(前一 lens 笔记不进后一 lens 的工作上下文) | 解压即用,不绑定单一 harness |

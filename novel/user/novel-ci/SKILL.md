@@ -5,6 +5,10 @@ description: "Spec-driven novel writing pipeline: scene_card → draft → revie
 
 # Novel CI
 
+For replies to the author during this fiction task, load
+[novel-conversation](../novel-conversation/SKILL.md). It guides only your communication;
+keep manuscript prose, structured records and this workflow's checks under their own rules.
+
 ## Core principles
 
 1. 先规格后正文。Every scene must have a confirmed `scene_card` before drafting.

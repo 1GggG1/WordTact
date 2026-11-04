@@ -118,8 +118,9 @@ The register stack applies only during the conversational discussion phase.
    discussion phase. They are read-only for this skill. If slot files conflict, report the
    conflict and ask the user to decide.
 2. `references/register-discussion.md`: novel-discuss specific register for presenting
-   disagreement, giving recommendations, avoiding mush, and the generic conversational baseline.
-   See that file for targets and evaluation signals.
+   disagreement, giving recommendations and avoiding mush. See that file for evaluation signals.
+3. [novel-conversation](../../novel-conversation/SKILL.md): shared author-conversation baseline,
+   also used by planning, drafting and review. It does not prescribe character speech.
 
 Exempt products: lens notes, digest, minutes, decisions, and handoff are structured work
 products. They may use telegraphic or schema-shaped language instead of conversational

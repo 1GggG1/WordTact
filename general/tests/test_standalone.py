@@ -39,6 +39,21 @@ class StandaloneTests(unittest.TestCase):
     def test_source_graph_is_self_contained(self):
         self.assert_bundle(SKILL)
 
+    def test_conversation_reference_does_not_register_a_duplicate_skill(self):
+        reference = SKILL / "references/conversation.md"
+        self.assertTrue(reference.is_file())
+        self.assertEqual(list(SKILL.rglob("SKILL.md")), [SKILL / "SKILL.md"])
+        self.assertFalse(reference.read_text().startswith("---\n"))
+        self.assertNotRegex(reference.read_text(), r"\bCG\b|/(?:Users|home)/[^/]+/")
+
+    def test_missing_conversation_reference_breaks_standalone_bundle(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            copied = Path(temporary) / "wordtact"
+            shutil.copytree(SKILL, copied)
+            (copied / "references/conversation.md").unlink()
+            with self.assertRaises(AssertionError):
+                self.assert_bundle(copied)
+
     def test_copy_outside_repository_needs_no_sibling_skills(self):
         with tempfile.TemporaryDirectory() as temporary:
             copied = Path(temporary) / "wordtact"

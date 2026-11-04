@@ -94,6 +94,8 @@ class SourcePackageTests(unittest.TestCase):
             "file-tagging",
             "novel-auditor",
             "novel-ci",
+            "novel-conversation",
+            "novel-dialogue",
             "novel-discuss",
             "novel-expander",
             "vault-organizer",
@@ -109,6 +111,30 @@ class SourcePackageTests(unittest.TestCase):
         errors = []
         validator.check_shared_files(errors)
         self.assertEqual(errors, [])
+
+    def test_conversation_routes_survive_flat_installation(self) -> None:
+        errors = []
+        validator.check_conversation_routes(errors)
+        self.assertEqual(errors, [])
+        with tempfile.TemporaryDirectory() as temporary:
+            base = Path(temporary) / "flat"
+            shutil.copytree(REPO / "user", base)
+            errors = []
+            validator.check_conversation_routes(errors, base)
+            self.assertEqual(errors, [])
+
+    def test_missing_dialogue_skill_and_misdirected_route_are_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            base = Path(temporary) / "flat"
+            shutil.copytree(REPO / "user", base)
+            (base / "novel-dialogue/SKILL.md").unlink()
+            consumer = base / "novel-auditor/SKILL.md"
+            consumer.write_text(consumer.read_text().replace(
+                "../novel-dialogue/SKILL.md", "../novel-conversation/SKILL.md"))
+            errors = []
+            validator.check_conversation_routes(errors, base)
+            self.assertTrue(any("missing conversation resource: novel-dialogue" in e for e in errors))
+            self.assertTrue(any("novel-auditor/SKILL.md must link" in e for e in errors))
 
     def test_broken_forwarder_or_unloaded_consumer_is_detected(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
